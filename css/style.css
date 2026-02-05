@@ -1306,6 +1306,17 @@ img {
     -webkit-box-orient: vertical;
     overflow: hidden;
     flex: 1;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.talk-desc:hover {
+    color: var(--text-primary);
+}
+
+.talk-desc.expanded {
+    -webkit-line-clamp: unset;
+    display: block;
 }
 
 .talk-video-link {

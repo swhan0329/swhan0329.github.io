@@ -5,7 +5,20 @@ document.addEventListener('DOMContentLoaded', () => {
     initNav();
     initI18n();
     initSmoothScroll();
+    initExpandableText();
 });
+
+// ===== Expandable Text (Click to Expand/Collapse) =====
+function initExpandableText() {
+    const talkDescs = document.querySelectorAll('.talk-desc');
+
+    talkDescs.forEach(desc => {
+        desc.addEventListener('click', (e) => {
+            e.stopPropagation();
+            desc.classList.toggle('expanded');
+        });
+    });
+}
 
 // ===== Theme Toggle =====
 function initTheme() {
