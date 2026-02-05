@@ -707,9 +707,19 @@ img {
 .project-tags span {
     font-size: 0.7rem;
     padding: 0.25rem 0.5rem;
-    background-color: var(--bg-secondary);
+    background-color: var(--card-bg);
+    /* Fallback */
+    background-color: rgba(128, 128, 128, 0.1);
+    border: 1px solid rgba(128, 128, 128, 0.2);
     border-radius: 4px;
     color: var(--text-secondary);
+    font-weight: 500;
+}
+
+[data-theme='dark'] .project-tags span {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: var(--text-primary);
 }
 
 /* Featured Project */
