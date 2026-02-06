@@ -16,7 +16,7 @@ const translations = {
         'hero.name': 'Seowoo Han',
         'hero.greeting': "Hello, I'm",
         'hero.title': 'Impact Engineer',
-        'hero.education': 'Korea Univ. Ph.D. in CS · <a href="https://www.donga.com/news/Society/article/all/20190820/97026745/1" class="edu-link" target="_blank" rel="noopener">CMU AI Program (Gov. Scholarship)</a>',
+        'hero.education': 'Korea Univ. Ph.D. in CS · <a href="https://www.donga.com/news/Society/article/all/20190820/97026745/1" class="edu-link" target="_blank" rel="noopener">CMU AI Program(Full Scholarship by IITP, Korea)</a>',
         'hero.description': 'I\'m an Impact Engineer who creates change by solving real problems in society and business. As an AI Native, I use AI not as a tool but as a collaborator to expand the speed and depth of problem-solving. Through mentoring, open-source, and community talks, I share knowledge to help technology reach more people.',
         'hero.cta': 'Get in Touch',
         'hero.projects': 'View Projects',
