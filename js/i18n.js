@@ -83,7 +83,7 @@ const translations = {
         // Life
         'life.title': 'Life & Hobbies',
         'life.travel.title': 'Travel',
-        'life.travel.desc': 'Visited 5 of 6 continents (Oceania is next!). Switzerland, Canada, USA, South Africa, Guam, Thailand... Embracing new cultures and breaking from routine.',
+        'life.travel.desc': 'Visited 5 of 6 continents—Switzerland, UK, Czech Republic, Germany, France, USA, Thailand, Guam, Japan, China, South Africa, and more. Oceania is next! I love stepping out of the familiar and embracing new cultures.',
         'life.camping.title': 'Camping',
         'life.camping.desc': 'Escaping to nature and disconnecting from the digital world.',
         'life.nightsky.title': 'Stargazing',
@@ -140,6 +140,8 @@ const translations = {
         'talks.posco.desc': 'Invited lecture on AI applications and positive influence in construction technology.',
         'talks.watchVideo': 'Watch Video',
         'talks.talkReview': 'Talk Review',
+        'talks.watchReplay': 'Watch Replay',
+        'talks.eventInfo': 'Event Info',
 
         // Experience
         'exp.interview': 'Interview',
@@ -152,7 +154,7 @@ const translations = {
         // Media
         'media.title': 'Featured In',
         'media.profile.title': 'Wanted Lab People Encyclopedia',
-        'media.profile.desc': 'An interview about my journey finding meaning through impactful work and community building.',
+        'media.profile.desc': 'An honest conversation about finding meaning in work, dealing with workplace stress and gaslighting, and the lessons learned along the way.',
         'media.btn.article': 'View Article',
         'media.btn.youtube': 'Watch on YouTube',
         'media.modulabs.title': 'DVA LAB Story',
@@ -255,7 +257,7 @@ const translations = {
         // Life
         'life.title': '일상 & 취미',
         'life.travel.title': '여행',
-        'life.travel.desc': '겨울을 좋아하는 스위스, 오로라를 못 봤지만 캐나다, 미국, 남아프리카 공화국, 괌, 태국... 새로운 문화를 받아들이고 익숙함에서 벗어나는 것을 좋아합니다.',
+        'life.travel.desc': '스위스, 영국, 체코, 독일, 프랑스, 미국, 태국, 괌, 일본, 중국, 남아프리카공화국 등 6대륙 중 5대륙을 다뇀습니다. 다음은 오세아니아! 익숙함에서 벗어나 새로운 문화를 받아들이는 것을 좋아합니다.',
         'life.camping.title': '캠핑',
         'life.camping.desc': '자연 속으로 떠나 디지털 세계에서 단절되는 시간.',
         'life.nightsky.title': '밤하늘 구경',
@@ -312,6 +314,8 @@ const translations = {
         'talks.posco.desc': 'AI 활용 및 건설 기술의 긍정적 영향력에 대한 초청 강연.',
         'talks.watchVideo': '영상 보기',
         'talks.talkReview': '발표 후기',
+        'talks.watchReplay': '발표 다시보기',
+        'talks.eventInfo': '행사 소개',
 
         // Experience
         'exp.interview': '인터뷰',
@@ -324,7 +328,7 @@ const translations = {
         // Media
         'media.title': '인물도감',
         'media.profile.title': '원티드랩 인물도감',
-        'media.profile.desc': '일을 통해 의미를 찾고 커뮤니티를 만들어가는 여정에 대한 인터뷰',
+        'media.profile.desc': '일의 의미, 직장 내 스트레스와 가스라이팅을 극복한 경험, 그리고 그 과정에서 배운 것들에 대한 솔직한 이야기.',
         'media.btn.article': '인물도감 보러가기',
         'media.btn.youtube': '유튜브 보러가기',
         'media.modulabs.title': 'DVA LAB 스토리',
