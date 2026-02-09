@@ -191,7 +191,7 @@ const translations = {
         'hero.name': '한서우입니다.',
         'hero.greeting': '안녕하세요, ',
         'hero.title': '임팩트 엔지니어',
-        'hero.education': '고려대학교 컴퓨터학과 박사 수료 · <a href="https://www.donga.com/news/Society/article/all/20190820/97026745/1" class="edu-link" target="_blank" rel="noopener">CMU AI 프로그램 (정부 장학)</a>',
+        'hero.education': '고려대학교 컴퓨터학과 박사 수료 · <a href="https://www.donga.com/news/Society/article/all/20190820/97026745/1" class="edu-link" target="_blank" rel="noopener">CMU AI 프로그램 (전액 장학, IITP 지원)</a>',
         'hero.description': '저는 사회와 비즈니스의 실제 문제를 해결하며 변화를 만들어내는 임팩트 엔지니어입니다. AI Native로서 AI를 도구가 아닌 동료로 활용해 문제 해결 속도와 깊이를 확장합니다. 멘토링, 오픈소스, 커뮤니티 강연을 통해 지식을 공유하며 기술이 더 많은 사람에게 닿도록 노력합니다.',
         'hero.cta': '연락하기',
         'hero.projects': '프로젝트 보기',
