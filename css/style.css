@@ -264,6 +264,34 @@ img {
     margin-bottom: 0.5rem;
 }
 
+.hero-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.3rem 0.75rem;
+    background: linear-gradient(135deg, #f59e0b, #d97706);
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: all var(--transition);
+    letter-spacing: 0.3px;
+}
+
+.hero-badge:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+    opacity: 0.9;
+}
+
 .hero-education {
     font-size: 0.875rem;
     color: var(--text-secondary);
@@ -1227,6 +1255,161 @@ img {
 
 [data-theme="dark"] .partner-logo {
     background-color: var(--bg-primary);
+}
+
+/* Ambassador Card */
+.ambassador-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 1rem;
+}
+
+.ambassador-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    background-color: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    transition: all var(--transition);
+}
+
+.ambassador-card:hover {
+    border-color: var(--accent);
+    box-shadow: var(--card-shadow);
+}
+
+.ambassador-card-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ambassador-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+    flex-shrink: 0;
+}
+
+[data-theme="dark"] .ambassador-logo {
+    background-color: #1e1e1e;
+}
+
+.ambassador-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.ambassador-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.ambassador-org {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+.ambassador-date {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.ambassador-desc {
+    font-size: 0.85rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+}
+
+.ambassador-accordions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.ambassador-accordion {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.ambassador-accordion-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.6rem 0.85rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--accent);
+    background-color: rgba(59, 130, 246, 0.06);
+    border: none;
+    cursor: pointer;
+    transition: all var(--transition);
+}
+
+.ambassador-accordion-toggle:hover {
+    background-color: rgba(59, 130, 246, 0.12);
+}
+
+.accordion-chevron {
+    transition: transform 0.25s ease;
+    flex-shrink: 0;
+}
+
+.ambassador-accordion.open .accordion-chevron {
+    transform: rotate(180deg);
+}
+
+.ambassador-accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.ambassador-accordion.open .ambassador-accordion-content {
+    max-height: 500px;
+}
+
+.accordion-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.55rem 0.85rem;
+    font-size: 0.8rem;
+    color: var(--text-primary);
+    text-decoration: none;
+    border-top: 1px solid var(--border);
+    transition: background-color var(--transition);
+}
+
+.accordion-link:hover {
+    background-color: rgba(59, 130, 246, 0.06);
+}
+
+.accordion-link svg {
+    color: var(--text-secondary);
+    flex-shrink: 0;
+}
+
+.accordion-empty {
+    display: block;
+    padding: 0.55rem 0.85rem;
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    font-style: italic;
+    border-top: 1px solid var(--border);
 }
 
 /* ===== Publication Links ===== */

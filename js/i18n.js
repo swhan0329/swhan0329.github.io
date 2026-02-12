@@ -6,6 +6,7 @@ const translations = {
         'nav.projects': 'Projects',
         'nav.publications': 'Publications',
         'nav.teaching': 'Teaching',
+        'nav.ecosystem': 'AI Ecosystem',
         'nav.life': 'Life',
         'nav.contact': 'Contact',
 
@@ -100,11 +101,13 @@ const translations = {
         'teaching.intro': 'Sharing knowledge in AI and Computer Vision through various educational platforms.',
         'teaching.cat.instructor': 'Instructor',
         'teaching.cat.mentor': 'Tutor & Mentor',
+        'teaching.cat.ambassador': 'Ambassador',
         'teaching.topic.cv': 'Computer Vision',
         'teaching.topic.chatgpt': 'ChatGPT & Generative AI',
         'teaching.topic.ethics': 'AI Ethics',
         'teaching.topic.career': 'AI Career',
-        'teaching.topic.programming': 'AI Programming',
+        'teaching.topic.programming': 'AI Introduction',
+        'teaching.topic.ai_mentoring': 'AI Mentoring',
         'teaching.topic.ocr': 'OCR Challenges',
         'teaching.topic.ds': 'Data Science & AI',
         'teaching.topic.bootcamp': 'AI Bootcamp',
@@ -113,10 +116,11 @@ const translations = {
         'teaching.platform.modulabs': 'MODULABS',
         'teaching.platform.wantedlab': 'WantedLab',
         'teaching.platform.elice': 'Elice (Alice Coding)',
+        'teaching.platform.codeit': 'Codeit',
         'teaching.platform.cv_mentor': 'Likelion, Upstage, Day1Company',
         'teaching.platform.ocr_mentor': 'Upstage, Day1Company',
         'teaching.platform.naver': 'NAVER Connect Foundation',
-        'teaching.platform.sparta': 'Sparta Coding Club',
+        'teaching.platform.sparta': 'Sparta Coding Club, Codeit',
 
         // Talks
         'nav.talks': 'Talks',
@@ -153,6 +157,14 @@ const translations = {
 
         // Media
         'media.title': 'Featured In',
+
+        // AI Ecosystem
+        'ecosystem.title': 'AI Ecosystem',
+        'ecosystem.ambassador.desc': 'Contributing to the AI developer ecosystem in Korea through mentoring, content creation, and community building.',
+        'ecosystem.btn.linkedin': '📝 LinkedIn',
+        'ecosystem.btn.mentoring': '🎓 Mentoring',
+        'ecosystem.btn.events': '🎪 Events',
+
         'media.profile.title': 'Wanted Lab People Encyclopedia',
         'media.profile.desc': 'An honest conversation about finding meaning in work, dealing with workplace stress and gaslighting, and the lessons learned along the way.',
         'media.btn.article': 'View Article',
@@ -169,6 +181,10 @@ const translations = {
         'partner.sparta': 'Sparta Coding Club',
         'partner.elice': 'Elice',
         'partner.day1': 'Day1Company',
+        'partner.codeit': 'Codeit',
+
+        // Ambassador
+        'ambassador.codex': 'Codex Ambassador',
 
         // Footer
         'footer.rights': 'All rights reserved.'
@@ -180,6 +196,7 @@ const translations = {
         'nav.projects': '프로젝트',
         'nav.publications': '논문',
         'nav.teaching': '교육',
+        'nav.ecosystem': 'AI 생태계',
         'nav.media': '미디어',
         'nav.life': '일상',
         'nav.contact': '연락처',
@@ -274,11 +291,13 @@ const translations = {
         'teaching.intro': 'AI와 컴퓨터 비전 분야의 지식을 다양한 교육 플랫폼을 통해 전달하고 있습니다.',
         'teaching.cat.instructor': '강사',
         'teaching.cat.mentor': '튜터 & 멘토',
+        'teaching.cat.ambassador': '앨배서더',
         'teaching.topic.cv': '컴퓨터 비전',
         'teaching.topic.chatgpt': 'ChatGPT & 생성형 AI',
         'teaching.topic.ethics': 'AI 윤리',
         'teaching.topic.career': 'AI 커리어',
-        'teaching.topic.programming': 'AI 프로그래밍',
+        'teaching.topic.programming': 'AI 개론',
+        'teaching.topic.ai_mentoring': 'AI 멘토링',
         'teaching.topic.ocr': 'OCR 챌린지',
         'teaching.topic.ds': '데이터 사이언스 & AI',
         'teaching.topic.bootcamp': 'AI 부트캠프',
@@ -287,10 +306,11 @@ const translations = {
         'teaching.platform.modulabs': '모두의연구소',
         'teaching.platform.wantedlab': '원티드랩',
         'teaching.platform.elice': '엘리스 코딩',
+        'teaching.platform.codeit': '코드잇',
         'teaching.platform.cv_mentor': '멋쟁이사자처럼, 업스테이지, 데이원컴퍼니',
         'teaching.platform.ocr_mentor': '업스테이지, 데이원컴퍼니',
         'teaching.platform.naver': '네이버 커넥티드재단',
-        'teaching.platform.sparta': '스파르타코딩클럽',
+        'teaching.platform.sparta': '스파르타코딩클럽, 코드잇',
 
         // Talks
         'nav.talks': '발표',
@@ -327,6 +347,14 @@ const translations = {
 
         // Media
         'media.title': '인물도감',
+
+        // AI Ecosystem
+        'ecosystem.title': 'AI 생태계',
+        'ecosystem.ambassador.desc': '한국에서 멘토링, 콘텐츠 제작, 커뮤니티 빌딩을 통해 AI 개발자 생태계에 기여하고 있습니다.',
+        'ecosystem.btn.linkedin': '📝 링크드인',
+        'ecosystem.btn.mentoring': '🎓 멘토링',
+        'ecosystem.btn.events': '🎪 행사',
+
         'media.profile.title': '원티드랩 인물도감',
         'media.profile.desc': '일의 의미, 직장 내 스트레스와 가스라이팅을 극복한 경험, 그리고 그 과정에서 배운 것들에 대한 솔직한 이야기.',
         'media.btn.article': '인물도감 보러가기',
@@ -343,6 +371,10 @@ const translations = {
         'partner.sparta': '스파르타코딩클럽',
         'partner.elice': '엘리스',
         'partner.day1': '데이원컴퍼니',
+        'partner.codeit': '코드잇',
+
+        // Ambassador
+        'ambassador.codex': 'Codex Ambassador',
 
         // Footer
         'footer.rights': 'All rights reserved.'
