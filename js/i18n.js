@@ -17,7 +17,7 @@ const translations = {
         'hero.name': 'Seowoo Han',
         'hero.greeting': "Hello, I'm",
         'hero.title': 'Impact Engineer',
-        'hero.education': 'Korea Univ. Ph.D. in CS · <a href="https://www.donga.com/news/Society/article/all/20190820/97026745/1" class="edu-link" target="_blank" rel="noopener">CMU AI Program(Full Scholarship by IITP, Korea)</a>',
+        'hero.education': 'Korea Univ. Ph.D. in CS · <a href="https://www.donga.com/news/Society/article/all/20190820/97026745/1" class="edu-link" target="_blank" rel="noopener">CMU AI Program (Full Scholarship by IITP, Korea)</a>',
         'hero.description': 'I\'m an Impact Engineer who creates change by solving real problems in society and business. As an AI Native, I use AI not as a tool but as a collaborator to expand the speed and depth of problem-solving. Through mentoring, open-source, and community talks, I share knowledge to help technology reach more people.',
         'hero.cta': 'Get in Touch',
         'hero.projects': 'View Projects',
@@ -54,7 +54,7 @@ const translations = {
         'projects.findleader.title': 'Find My Leader',
         'projects.findleader.desc': "AI-powered election analysis app helping voters understand candidates' stances. 2,000+ users.",
         'projects.explore.desc': 'AI-generated personal branding sentences. Built in 7 hours using React + AWS Lambda.',
-        'projects.dva.desc': 'A 2-year nonprofit collaboration as a Tech for Impact pilot cohort. Developed an AI web solution to detect and track tourism boats, protecting the habitat of Jeju\'s Indo-Pacific bottlenose dolphins.',
+        'projects.dva.desc': 'A 2-year nonprofit collaboration as part of a Tech for Impact pilot cohort. Developed an AI web solution to detect and track tourism boats, protecting the habitat of Jeju\'s Indo-Pacific bottlenose dolphins.',
         'projects.dva.kickoff': 'Kickoff Meeting',
         'projects.dva.partnership': 'Tech For Impact MOU',
         'projects.dva.moducon': 'MODUCON Talk',
@@ -88,7 +88,7 @@ const translations = {
         'life.camping.title': 'Camping',
         'life.camping.desc': 'Escaping to nature and disconnecting from the digital world.',
         'life.nightsky.title': 'Stargazing',
-        'life.nightsky.desc': 'Earth science enthusiast. Love gazing at stars, the moon, and the night sky.',
+        'life.nightsky.desc': 'Earth science enthusiast. I love gazing at stars, the moon, and the night sky.',
         'life.coding.title': 'Side Projects',
         'life.coding.desc': 'Outstanding execution—if I want to build it, I build it. No hesitation.',
         'life.photo.title': 'Photography',
@@ -133,7 +133,7 @@ const translations = {
         'talks.code.subtitle': 'The Secret of Developer Leadership',
         'talks.code.desc': 'A session on balancing "I" and "We" in leadership. Leadership has no fixed formula—everyone leads differently, and followership is just as essential.',
         'talks.modupop.subtitle': 'DVA LAB: Marine Ecosystem AI Monitoring',
-        'talks.modupop.desc': 'Vision AI-based drone video analysis web service for Jeju dolphin protection - ship speed estimation using BEV transformation.',
+        'talks.modupop.desc': 'Vision AI-based drone video analysis web service for Jeju dolphin protection, including ship speed estimation using BEV transformation.',
         'talks.jeju.desc': 'Talk on protecting Indo-Pacific bottlenose dolphins near Jeju using AI-based ship detection and tracking technology.',
         'talks.digilab.subtitle': 'Changing the World with Technology',
         'talks.digilab.desc': 'Presentation on AI-driven conservation efforts for Indo-Pacific bottlenose dolphins, inspired by real-time drone vision systems.',
@@ -239,7 +239,7 @@ const translations = {
 
         'projects.title': '사이드 프로젝트',
         'projects.impactbridge.title': '임팩트브릿지',
-        'projects.impactbridge.desc': '사회혁신가와 기술 인재를 연결하는 플랫폼. 카카오임팩트 테모모 지원.',
+        'projects.impactbridge.desc': '사회혁신가와 기술 인재를 연결하는 플랫폼. 카카오임팩트 지원.',
         'projects.retext.desc': '시니어와 저시력자를 위한 AI 문서 요약. 접근성 중심 UX 설계.',
         'projects.findleader.title': '나의 리더를 찾아서',
         'projects.findleader.desc': 'LLM 기반 대선 후보 분석 앱. Vibe Coding으로 3시간 개발, 2,000+ 사용자.',
@@ -274,7 +274,7 @@ const translations = {
         // Life
         'life.title': '일상 & 취미',
         'life.travel.title': '여행',
-        'life.travel.desc': '스위스, 영국, 체코, 독일, 프랑스, 미국, 태국, 괌, 일본, 중국, 남아프리카공화국 등 6대륙 중 5대륙을 다뇀습니다. 다음은 오세아니아! 익숙함에서 벗어나 새로운 문화를 받아들이는 것을 좋아합니다.',
+        'life.travel.desc': '스위스, 영국, 체코, 독일, 프랑스, 미국, 태국, 괌, 일본, 중국, 남아프리카공화국 등 6대륙 중 5대륙을 다녔습니다. 다음은 오세아니아! 익숙함에서 벗어나 새로운 문화를 받아들이는 것을 좋아합니다.',
         'life.camping.title': '캠핑',
         'life.camping.desc': '자연 속으로 떠나 디지털 세계에서 단절되는 시간.',
         'life.nightsky.title': '밤하늘 구경',
@@ -291,7 +291,7 @@ const translations = {
         'teaching.intro': 'AI와 컴퓨터 비전 분야의 지식을 다양한 교육 플랫폼을 통해 전달하고 있습니다.',
         'teaching.cat.instructor': '강사',
         'teaching.cat.mentor': '튜터 & 멘토',
-        'teaching.cat.ambassador': '앨배서더',
+        'teaching.cat.ambassador': '앰배서더',
         'teaching.topic.cv': '컴퓨터 비전',
         'teaching.topic.chatgpt': 'ChatGPT & 생성형 AI',
         'teaching.topic.ethics': 'AI 윤리',
@@ -309,7 +309,7 @@ const translations = {
         'teaching.platform.codeit': '코드잇',
         'teaching.platform.cv_mentor': '멋쟁이사자처럼, 업스테이지, 데이원컴퍼니',
         'teaching.platform.ocr_mentor': '업스테이지, 데이원컴퍼니',
-        'teaching.platform.naver': '네이버 커넥티드재단',
+        'teaching.platform.naver': '네이버 커넥트재단',
         'teaching.platform.sparta': '스파르타코딩클럽, 코드잇',
 
         // Talks
@@ -329,7 +329,7 @@ const translations = {
         'talks.digilab.desc': '실시간 드론 비전 시스템에서 영감을 받은 남방큰돌고래 AI 보전 활동에 대한 발표.',
         'talks.wtm.desc': 'DVA LAB의 사회적 임팩트 프로젝트에서 얻은 교훈을 바탕으로 신기술이 미래를 어떻게 형성할 수 있는지에 대한 발표.',
         'talks.moducon.desc': 'DVA LAB에서 영감을 받아 협업 AI 프로젝트를 통해 개인의 재능을 모아 사회 문제를 해결한 여정에 대한 발표.',
-        'talks.google.desc': '필터 버블을 깨고 다양한 관점을 장려하는 것에 초점을 맞춘 미국 대학생 대상 소셜 미디어 스타트업 창업.',
+        'talks.google.desc': '필터 버블을 깨고 다양한 관점을 장려하는 데 초점을 맞춘 미국 대학생 대상 소셜 미디어 스타트업을 창업했습니다.',
         'talks.posco.title': '포스코E&C 스마트 건설 아카데미',
         'talks.posco.desc': 'AI 활용 및 건설 기술의 긍정적 영향력에 대한 초청 강연.',
         'talks.watchVideo': '영상 보기',
@@ -343,7 +343,7 @@ const translations = {
 
         // Contact
         'contact.title': '연락하기',
-        'contact.text': '새로운 프로젝트, 창의적인 아이디어, 또는 함께할 기회에 대해 언제든 연락 주세요.',
+        'contact.text': '새로운 프로젝트, 창의적인 아이디어, 또는 함께할 기회에 대해 언제든 연락해 주세요.',
 
         // Media
         'media.title': '인물도감',
@@ -364,7 +364,7 @@ const translations = {
 
         // Partners
         'partner.likelion': '멋쟁이사자처럼',
-        'partner.naver': '네이버 커넥티드',
+        'partner.naver': '네이버 커넥트재단',
         'partner.fastcampus': '패스트캠퍼스',
         'partner.modulabs': '모두의연구소',
         'partner.wanted': '원티드랩',
