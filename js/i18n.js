@@ -329,7 +329,7 @@ const translations = {
         'talks.digilab.desc': '실시간 드론 비전 시스템에서 영감을 받은 남방큰돌고래 AI 보전 활동에 대한 발표.',
         'talks.wtm.desc': 'DVA LAB의 사회적 임팩트 프로젝트에서 얻은 교훈을 바탕으로 신기술이 미래를 어떻게 형성할 수 있는지에 대한 발표.',
         'talks.moducon.desc': 'DVA LAB에서 영감을 받아 협업 AI 프로젝트를 통해 개인의 재능을 모아 사회 문제를 해결한 여정에 대한 발표.',
-        'talks.google.desc': '필터 버블을 깨고 다양한 관점을 장려하는 데 초점을 맞춘 미국 대학생 대상 소셜 미디어 스타트업을 창업했습니다.',
+        'talks.google.desc': '필터 버블을 깨고 다양한 관점을 볼 수 있도록 하는 데 초점을 맞춘 미국 대학생 대상 소셜 미디어 스타트업을 창업했습니다.',
         'talks.posco.title': '포스코E&C 스마트 건설 아카데미',
         'talks.posco.desc': 'AI 활용 및 건설 기술의 긍정적 영향력에 대한 초청 강연.',
         'talks.watchVideo': '영상 보기',
