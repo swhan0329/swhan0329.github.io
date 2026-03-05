@@ -1459,6 +1459,7 @@ img {
 .talk-meta {
     display: flex;
     align-items: center;
+    gap: 0.4rem;
     margin-bottom: 0.5rem;
 }
 
@@ -1469,6 +1470,19 @@ img {
     background: var(--accent);
     padding: 0.2rem 0.5rem;
     border-radius: 4px;
+}
+
+.talk-type {
+    font-size: 0.68rem;
+    font-weight: 600;
+    padding: 0.2rem 0.5rem;
+    border-radius: 999px;
+    line-height: 1;
+}
+
+.talk-type-panel {
+    color: #0077b5;
+    background-color: rgba(0, 119, 181, 0.14);
 }
 
 .talk-content {

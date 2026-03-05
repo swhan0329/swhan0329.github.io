@@ -107,6 +107,7 @@ const translations = {
         'teaching.topic.ethics': 'AI Ethics',
         'teaching.topic.career': 'AI Career',
         'teaching.topic.programming': 'AI Introduction',
+        'teaching.topic.career.mentor': 'Career',
         'teaching.topic.ai_mentoring': 'AI Mentoring',
         'teaching.topic.ocr': 'OCR Challenges',
         'teaching.topic.ds': 'Data Science & AI',
@@ -125,6 +126,10 @@ const translations = {
         // Talks
         'nav.talks': 'Talks',
         'talks.title': 'Invited Talks',
+        'talks.type.panel': 'Panel Talk',
+        'talks.iwd.title': "International Women's Day: Female Leadership in AI",
+        'talks.iwd.subtitle': 'Canadian & UK Embassies in Seoul',
+        'talks.iwd.desc': 'Invited panel speaker for the March 9, 2026 event co-hosted by the Canadian and UK Embassies in Seoul, joined by 35 participants including students and early-career AI professionals.',
         'talks.leadher.subtitle': 'Personal Branding in the AI Era',
         'talks.leadher.desc': 'A talk for 80+ women developers on how personal branding, not job titles, will define our careers in the AI era. Balancing measured skepticism with cautious optimism while actively adapting to change.',
         'talks.aiconf.title': 'AI for Good Conference 2025',
@@ -162,8 +167,18 @@ const translations = {
         'ecosystem.title': 'AI Ecosystem',
         'ecosystem.ambassador.desc': 'Contributing to the AI developer ecosystem in Korea through mentoring, content creation, and community building.',
         'ecosystem.btn.linkedin': '📝 LinkedIn',
-        'ecosystem.btn.mentoring': '🎓 Mentoring',
+        'ecosystem.btn.articles': '📰 Articles',
         'ecosystem.btn.events': '🎪 Events',
+        'ecosystem.comingSoon': 'Coming soon',
+        'ecosystem.article.codex101': 'Codex 101 - OpenAI Codex Complete Guide',
+        'ecosystem.article.aiAgent': 'Understanding AI Agent Concepts',
+        'ecosystem.link.codexAnnouncement': 'OpenAI Codex Ambassador announcement',
+        'ecosystem.link.meetupRecruitment': 'Codex Community Meetup - Seoul 3.11 (Recruitment Post)',
+        'ecosystem.link.codex101Story': 'Why I built Codex 101',
+        'ecosystem.link.aiAgentStory': 'Why I wrote Understanding AI Agent Concepts',
+        'ecosystem.link.ralphtonRecap': '2026.02.28-03.01 Ralphton (Field Recap)',
+        'ecosystem.event.meetupHost': '2026.03.11 Codex Community Meetup - Seoul (Solo Host, Recruitment)',
+        'ecosystem.event.ralphtonSponsor': '2026.02.28-03.01 Ralphton (Community Sponsorship)',
 
         'media.profile.title': 'Wanted Lab People Encyclopedia',
         'media.profile.desc': 'An honest conversation about finding meaning in work, dealing with workplace stress and gaslighting, and the lessons learned along the way.',
@@ -297,6 +312,7 @@ const translations = {
         'teaching.topic.ethics': 'AI 윤리',
         'teaching.topic.career': 'AI 커리어',
         'teaching.topic.programming': 'AI 개론',
+        'teaching.topic.career.mentor': '커리어',
         'teaching.topic.ai_mentoring': 'AI 멘토링',
         'teaching.topic.ocr': 'OCR 챌린지',
         'teaching.topic.ds': '데이터 사이언스 & AI',
@@ -315,6 +331,10 @@ const translations = {
         // Talks
         'nav.talks': '발표',
         'talks.title': '초청 발표',
+        'talks.type.panel': '패널 토크',
+        'talks.iwd.title': "International Women's Day: Female Leadership in AI",
+        'talks.iwd.subtitle': '주한 캐나다대사관 · 주한영국대사관 공동 주최',
+        'talks.iwd.desc': '2026년 3월 9일에 열리는 행사에 패널 토크 연사로 초청되었습니다. AI 분야에 관심 있는 학부/대학원생 및 커리어 초기 실무자 등 35명이 등록한 자리입니다.',
         'talks.leadher.subtitle': 'AI 시대, 직함이 아니라 브랜드가 나를 살린다',
         'talks.leadher.desc': '80여 명의 여성 개발자들과 함께한 자리. AI가 가져올 미래는 예측 불가능하지만, 지나친 회의주의나 맹목적 낙관주의를 경계하며 균형 잡힌 시각으로 변화에 능동적으로 대응해야 합니다.',
         'talks.aiconf.title': '돕는AI컨퍼런스 2025',
@@ -352,8 +372,18 @@ const translations = {
         'ecosystem.title': 'AI 생태계',
         'ecosystem.ambassador.desc': '한국에서 멘토링, 콘텐츠 제작, 커뮤니티 빌딩을 통해 AI 개발자 생태계에 기여하고 있습니다.',
         'ecosystem.btn.linkedin': '📝 링크드인',
-        'ecosystem.btn.mentoring': '🎓 멘토링',
+        'ecosystem.btn.articles': '📰 아티클',
         'ecosystem.btn.events': '🎪 행사',
+        'ecosystem.comingSoon': '업데이트 예정',
+        'ecosystem.article.codex101': 'Codex 101 - OpenAI Codex 완전 가이드',
+        'ecosystem.article.aiAgent': 'AI Agent 개념 이해하기',
+        'ecosystem.link.codexAnnouncement': 'OpenAI Codex Ambassador 선정 소식',
+        'ecosystem.link.meetupRecruitment': 'Codex Community Meetup - Seoul 3.11 모집 글',
+        'ecosystem.link.codex101Story': 'Codex 101을 만들게 된 이야기',
+        'ecosystem.link.aiAgentStory': 'AI Agent 개념 이해하기를 쓰게 된 이야기',
+        'ecosystem.link.ralphtonRecap': '2026.02.28-03.01 Ralphton 참관 후기',
+        'ecosystem.event.meetupHost': '2026.03.11 Codex Community Meetup - Seoul (단독 호스트, 모집 진행)',
+        'ecosystem.event.ralphtonSponsor': '2026.02.28-03.01 Ralphton (커뮤니티 후원)',
 
         'media.profile.title': '원티드랩 인물도감',
         'media.profile.desc': '일의 의미, 직장 내 스트레스와 가스라이팅을 극복한 경험, 그리고 그 과정에서 배운 것들에 대한 솔직한 이야기.',
@@ -396,6 +426,13 @@ function detectLanguage() {
 
 // Apply translations
 function applyTranslations(lang) {
+    if (!translations[lang]) {
+        lang = detectLanguage();
+        if (!translations[lang]) {
+            lang = 'en';
+        }
+    }
+
     currentLang = lang;
     const elements = document.querySelectorAll('[data-i18n]');
 
@@ -443,8 +480,14 @@ function toggleLanguage() {
 // Initialize i18n
 function initI18n() {
     // Check localStorage first, then detect browser language
-    const savedLang = localStorage.getItem('lang');
-    const lang = savedLang || detectLanguage();
+    const savedLang = (localStorage.getItem('lang') || '').toLowerCase();
+    let lang = detectLanguage();
+    if (savedLang.startsWith('ko')) {
+        lang = 'ko';
+    } else if (savedLang.startsWith('en')) {
+        lang = 'en';
+    }
+
     applyTranslations(lang);
 }
 
