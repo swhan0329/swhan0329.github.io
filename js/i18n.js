@@ -7,6 +7,7 @@ const translations = {
         'nav.publications': 'Publications',
         'nav.teaching': 'Teaching',
         'nav.ecosystem': 'AI Ecosystem',
+        'nav.media': 'Media',
         'nav.life': 'Life',
         'nav.contact': 'Contact',
 
