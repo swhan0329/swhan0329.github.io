@@ -1062,6 +1062,7 @@ img {
 .media-buttons {
     display: flex;
     gap: 1rem;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 1rem;
 }
@@ -1682,6 +1683,10 @@ img {
     }
 
     .talks-list {
+        grid-template-columns: 1fr;
+    }
+
+    .media-grid {
         grid-template-columns: 1fr;
     }
 }
