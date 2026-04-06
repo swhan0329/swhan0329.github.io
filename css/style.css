@@ -1004,7 +1004,7 @@ img {
 /* ===== Media Grid ===== */
 .media-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 1.5rem;
 }
 
@@ -1048,22 +1048,11 @@ img {
     margin-bottom: 1rem;
 }
 
-/* Single card centered layout */
-.media-grid.single-card {
-    display: flex;
-    justify-content: center;
-}
-
-.media-card.featured {
-    max-width: 600px;
-    text-align: center;
-}
-
 .media-buttons {
     display: flex;
-    gap: 1rem;
     flex-wrap: wrap;
-    justify-content: center;
+    gap: 1rem;
+    justify-content: flex-start;
     margin-top: 1rem;
 }
 

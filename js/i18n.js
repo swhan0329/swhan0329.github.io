@@ -167,7 +167,7 @@ const translations = {
         'contact.text': "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.",
 
         // Media
-        'media.title': 'Featured In',
+        'media.title': 'Media & Archive',
 
         // AI Ecosystem
         'ecosystem.title': 'AI Ecosystem',
@@ -194,13 +194,14 @@ const translations = {
 
         'media.profile.title': 'Wanted Lab People Encyclopedia',
         'media.profile.desc': 'An honest conversation about finding meaning in work, dealing with workplace stress and gaslighting, and the lessons learned along the way.',
-        'media.meetup.title': 'OpenAI Codex Community Meetup Archive',
-        'media.meetup.desc': 'Event page and edited replay archive from the March 11, 2026 Seoul meetup, including the OmX demo session and the long-running harness talk.',
-        'media.meetup.event': 'Event Page',
-        'media.meetup.omx': 'Watch OmX Talk',
-        'media.meetup.harness': 'Watch Harness Talk',
+        'media.archive.title': 'OpenAI Codex Community Meetup Archive',
+        'media.archive.desc': 'A collection of the March 11, 2026 Seoul meetup event page and edited talk videos, including the OmX demo session and long-running harness session.',
         'media.btn.article': 'View Article',
         'media.btn.youtube': 'Watch on YouTube',
+        'media.btn.event': 'Event Page',
+        'media.btn.ax': 'AX Talk Video',
+        'media.btn.harness': 'Harness Talk Video',
+        'media.btn.omx': 'OmX Talk Video',
         'media.modulabs.title': 'DVA LAB Story',
         'media.modulabs.desc': 'Interview on building "safe greenhouses" for technical experiments and community-led AI projects.',
 
@@ -388,7 +389,7 @@ const translations = {
         'contact.text': '새로운 프로젝트, 창의적인 아이디어, 또는 함께할 기회에 대해 언제든 연락해 주세요.',
 
         // Media
-        'media.title': '인물도감',
+        'media.title': '미디어 & 아카이브',
 
         // AI Ecosystem
         'ecosystem.title': 'AI 생태계',
@@ -415,13 +416,14 @@ const translations = {
 
         'media.profile.title': '원티드랩 인물도감',
         'media.profile.desc': '일의 의미, 직장 내 스트레스와 가스라이팅을 극복한 경험, 그리고 그 과정에서 배운 것들에 대한 솔직한 이야기.',
-        'media.meetup.title': 'OpenAI Codex Community Meetup 아카이브',
-        'media.meetup.desc': '2026년 3월 11일 서울 밋업의 행사 페이지와 편집된 발표 영상 모음입니다. OmX 데모 세션과 long-running harness 세션을 다시 볼 수 있습니다.',
-        'media.meetup.event': '행사 페이지',
-        'media.meetup.omx': 'OmX 발표 영상',
-        'media.meetup.harness': 'Harness 발표 영상',
+        'media.archive.title': 'OpenAI Codex Community Meetup 아카이브',
+        'media.archive.desc': '2026년 3월 11일 서울 밋업의 행사 페이지와 편집된 발표 영상 모음입니다. OmX 데모 세션과 long-running harness 세션을 다시 볼 수 있습니다.',
         'media.btn.article': '인물도감 보러가기',
         'media.btn.youtube': '유튜브 보러가기',
+        'media.btn.event': '행사 페이지',
+        'media.btn.ax': 'AX 발표 영상',
+        'media.btn.harness': 'Harness 발표 영상',
+        'media.btn.omx': 'OmX 발표 영상',
         'media.modulabs.title': 'DVA LAB 스토리',
         'media.modulabs.desc': '기술 실험을 위한 "안전한 온실"을 만들고 커뮤니티 주도 AI 프로젝트를 이끄는 이야기.',
 
