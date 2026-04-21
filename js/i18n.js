@@ -172,9 +172,12 @@ const translations = {
         // AI Ecosystem
         'ecosystem.title': 'AI Ecosystem',
         'ecosystem.ambassador.desc': 'Contributing to the AI developer ecosystem in Korea through mentoring, content creation, and community building.',
+        'ecosystem.techabreak.date': 'Ongoing',
+        'ecosystem.techabreak.desc': 'An email interview series about how people are living through the AI transition. I started it to document human stories and emotions around change, not just tactical advice on how to use AI better.',
         'ecosystem.btn.linkedin': '📝 LinkedIn',
         'ecosystem.btn.articles': '📰 Articles',
         'ecosystem.btn.events': '🎪 Events',
+        'ecosystem.btn.series': '✉️ Series',
         'ecosystem.comingSoon': 'Coming soon',
         'ecosystem.article.codex101': 'Codex 101 - OpenAI Codex Complete Guide',
         'ecosystem.article.aiAgent': 'Understanding AI Agent Concepts',
@@ -191,6 +194,8 @@ const translations = {
         'ecosystem.link.ralphtonRecap': '2026.02.28-03.01 Ralphton (Field Recap)',
         'ecosystem.link.codexForOpenSource': 'Codex for Open Source program announcement',
         'ecosystem.link.codexWebinar': 'OpenAI webinar: multi-agent workflows with Codex',
+        'ecosystem.link.techabreak.substack': 'Read the interview series',
+        'ecosystem.link.techabreak.story': 'Why I started Tech a Break',
         'ecosystem.event.meetupHost': '2026.03.11 Codex Community Meetup - Seoul (Solo Host)',
         'ecosystem.event.ralphtonSponsor': '2026.02.28-03.01 Ralphton (Community Sponsorship)',
 
@@ -396,9 +401,12 @@ const translations = {
         // AI Ecosystem
         'ecosystem.title': 'AI 생태계',
         'ecosystem.ambassador.desc': '한국에서 멘토링, 콘텐츠 제작, 커뮤니티 빌딩을 통해 AI 개발자 생태계에 기여하고 있습니다.',
+        'ecosystem.techabreak.date': '진행 중',
+        'ecosystem.techabreak.desc': 'AI를 “더 잘 쓰는 방법”보다, 그 변화를 살아가는 사람들의 경험과 감정을 이메일 인터뷰 시리즈로 기록하는 프로젝트입니다. 천천히, 하지만 오래 남는 이야기를 남기고 싶어 시작했습니다.',
         'ecosystem.btn.linkedin': '📝 링크드인',
         'ecosystem.btn.articles': '📰 아티클',
         'ecosystem.btn.events': '🎪 행사',
+        'ecosystem.btn.series': '✉️ 시리즈',
         'ecosystem.comingSoon': '업데이트 예정',
         'ecosystem.article.codex101': 'Codex 101 - OpenAI Codex 완전 가이드',
         'ecosystem.article.aiAgent': 'AI Agent 개념 이해하기',
@@ -415,6 +423,8 @@ const translations = {
         'ecosystem.link.ralphtonRecap': '2026.02.28-03.01 Ralphton 참관 후기',
         'ecosystem.link.codexForOpenSource': 'Codex for Open Source 프로그램 소개',
         'ecosystem.link.codexWebinar': 'OpenAI 웨비나: Codex 멀티 에이전트 워크플로우',
+        'ecosystem.link.techabreak.substack': '인터뷰 시리즈 읽기',
+        'ecosystem.link.techabreak.story': 'Tech a Break를 시작한 이유',
         'ecosystem.event.meetupHost': '2026.03.11 Codex Community Meetup - Seoul (단독 호스트)',
         'ecosystem.event.ralphtonSponsor': '2026.02.28-03.01 Ralphton (커뮤니티 후원)',
 
