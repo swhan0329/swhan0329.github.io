@@ -38,14 +38,16 @@ const translations = {
 
         // Experience
         'experience.title': 'Experience',
-        'exp.bgarage.narrative': "Automating warehouse inventory inspection with drones. Developing vision AI systems to extract label information from drone-captured images in warehouse environments. Also building perception systems for safe autonomous drone navigation. Pushing the boundaries of mono RGB depth estimation.",
-        'exp.visit.narrative': 'Built RoundPic, a 360° panoramic camera app from the ground up. Led a team of 5 engineers to grow our customer base 3x in just 2 months. The core challenge was creating seamless panoramas using GAN-based inpainting—turning the "ugly seams" problem into a solved one.',
+        'exp.bgarage.narrative': "Automated warehouse inventory inspection with drones. Developed vision AI systems to extract label information from drone-captured images in warehouse environments, and now enhancing perception systems for safe autonomous drone navigation. Pushing the boundaries of mono RGB depth estimation.",
+        'exp.visit.narrative': 'Led the enhancement of RoundPic, an existing 360° panoramic camera app. With a team of 5 engineers, advanced its AI-based inpainting and stitching algorithms to reduce visible seams in panoramic images, helping grow the customer base 3x in just 2 months.',
         'exp.viewmagine.narrative': 'Directed technical strategy for AI-powered infrastructure inspection. Our VODA system detects building cracks at 0.01mm precision using drone imagery.',
         'exp.keti.company': 'Korea Electronics Technology Institute',
         'exp.keti.narrative': 'Developed real-time traffic monitoring AI for smart city infrastructure. Built detection pipelines using YOLO and DeepSORT, achieving 98% accuracy on multi-CCTV feeds. This research led to 2 international publications.',
         'exp.webarter.narrative': 'Founded a social media startup at CMU targeting U.S. college students. Our mission was breaking filter bubbles by exposing students to diverse perspectives. Built the app with Flutter and ML-powered recommendation systems. The experience taught me how to ship products that people actually use.',
         'exp.cesInterview': 'CES 2023 AVING Interview',
         'exp.linkedinPost': 'LinkedIn Post',
+        'exp.githubRepo': 'GitHub Repo',
+        'exp.aihubDataset': 'AIHub Dataset',
 
         // Projects
         'projects.title': 'Side Projects',
@@ -69,7 +71,7 @@ const translations = {
         'projects.dva.modulabs': 'Modulabs Blog',
         'projects.dva.brunch': 'Kakao Impact Brunch',
         'projects.badge.kakao': 'Kakao Impact Support',
-        'projects.roundpic.desc': '360° panoramic image creation app with GAN-driven inpainting technology',
+        'projects.roundpic.desc': '360° panoramic image creation app enhanced with AI-based inpainting and stitching algorithms',
         'projects.voda.desc': 'Drone-based building defect analysis and crack detection system',
         'projects.traffic.title': 'Traffic Analysis',
         'projects.traffic.desc': "Real-time traffic flow analysis using CCTV bird's-eye view conversion",
@@ -268,14 +270,16 @@ const translations = {
 
         // Experience
         'experience.title': '경력',
-        'exp.bgarage.narrative': '물류 재고 조사 자동화를 위해 드론을 활용하고 있습니다. 창고 환경에서 드론이 찍은 이미지에서 라벨 정보를 추출하는 비전 AI 시스템을 개발 중입니다. 드론 안전 자율주행을 위한 perception 시스템도 함께 개발하고 있습니다.',
-        'exp.visit.narrative': 'RoundPic이라는 360° 파노라마 카메라 앱을 처음부터 만들었습니다. 5명의 엔지니어 팀을 리드하며 2개월 만에 고객사를 3배로 성장시켰습니다. GAN 기반 인페인팅으로 "불쾌한 이음새" 문제를 해결한 것이 핵심 도전이었습니다.',
+        'exp.bgarage.narrative': '물류 재고 조사 자동화를 위해 드론을 활용하는 시스템을 개발했습니다. 창고 환경에서 드론이 찍은 이미지에서 라벨 정보를 추출하는 비전 AI 시스템을 개발했고, 드론 안전 자율주행을 위한 perception 시스템을 고도화하고 있습니다.',
+        'exp.visit.narrative': '기존 360° 파노라마 카메라 앱 RoundPic의 고도화를 리드했습니다. 5명의 엔지니어 팀과 함께 AI 기반 Inpainting 및 Stitching 알고리즘을 개선해 파노라마 이미지의 눈에 띄는 이음새 문제를 해결했고, 2개월 만에 고객사를 3배로 성장시켰습니다.',
         'exp.viewmagine.narrative': 'AI 기반 인프라 검사를 위한 기술 전략을 총괄했습니다. VODA 시스템은 드론 영상으로 0.01mm 정밀도의 건물 균열을 탐지합니다.',
         'exp.keti.company': '한국전자기술연구원',
         'exp.keti.narrative': '스마트시티 인프라를 위한 실시간 교통 모니터링 AI를 개발했습니다. YOLO와 DeepSORT로 다중 CCTV 피드에서 98% 정확도를 달성했고, 이 연구로 2편의 국제 논문을 발표했습니다.',
         'exp.webarter.narrative': 'CMU에서 미국 대학생을 타겟으로 소셜 미디어 스타트업을 창업했습니다. 필터 버블을 깨고 다양한 관점을 보여주는 것이 미션이었습니다. Flutter와 ML 추천 시스템으로 앱을 만들었고, 사람들이 실제로 사용하는 제품을 출시하는 법을 배웠습니다.',
         'exp.cesInterview': 'CES 2023 AVING 인터뷰',
         'exp.linkedinPost': 'LinkedIn 글',
+        'exp.githubRepo': 'GitHub 레포',
+        'exp.aihubDataset': 'AIHub 데이터셋',
 
         'projects.title': '사이드 프로젝트',
         'projects.impactbridge.title': '임팩트브릿지',
@@ -298,7 +302,7 @@ const translations = {
         'projects.dva.modulabs': '모두의연구소 블로그',
         'projects.dva.brunch': '카카오임팩트 브런치',
         'projects.badge.kakao': '카카오임팩트 지원',
-        'projects.roundpic.desc': 'GAN 기반 인페인팅 기술을 적용한 360° 파노라마 이미지 생성 앱',
+        'projects.roundpic.desc': 'AI 기반 Inpainting 및 Stitching 알고리즘을 고도화한 360° 파노라마 이미지 생성 앱',
         'projects.voda.desc': '드론 기반 건물 결함 분석 및 균열 탐지 시스템',
         'projects.traffic.title': '교통 분석',
         'projects.traffic.desc': 'CCTV 조감도 변환을 활용한 실시간 교통 흐름 분석',
