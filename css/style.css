@@ -1521,29 +1521,6 @@ img {
     display: block;
 }
 
-.talk-video-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    margin-top: 0.75rem;
-    padding: 0.5rem 1rem;
-    font-size: 0.8rem;
-    font-weight: 500;
-    color: #ff0000;
-    background-color: rgba(255, 0, 0, 0.1);
-    border-radius: 6px;
-    transition: all var(--transition);
-}
-
-.talk-video-link:hover {
-    background-color: rgba(255, 0, 0, 0.2);
-}
-
-.talk-video-link svg {
-    width: 16px;
-    height: 16px;
-}
-
 .talk-link {
     display: inline-flex;
     align-items: center;

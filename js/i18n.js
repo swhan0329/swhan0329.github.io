@@ -135,6 +135,11 @@ const translations = {
         'nav.talks': 'Talks',
         'talks.title': 'Invited Talks',
         'talks.type.panel': 'Panel Talk',
+        'talks.beatpaws.title': 'Building BeatPaws with Codex',
+        'talks.beatpaws.subtitle': 'Dankook University Tech for !mpact for Campus',
+        'talks.beatpaws.desc': 'A one-hour session on building BeatPaws, a web rhythm game made with Codex for Vibe Jam 2026, and how AI-written code becomes a real playable product through small loops, playtesting, feedback, and iteration.',
+        'talks.beatpaws.youtubeKo': 'Korean Lecture Video',
+        'talks.beatpaws.youtubeEn': 'English Lecture Video',
         'talks.iwd.title': "International Women's Day: Female Leadership in AI",
         'talks.iwd.subtitle': 'Canadian & UK Embassies in Seoul',
         'talks.iwd.desc': 'Invited panel speaker for the March 9, 2026 event co-hosted by the Canadian and UK Embassies in Seoul, joined by 35 participants including students and early-career AI professionals.',
@@ -373,6 +378,11 @@ const translations = {
         'nav.talks': '발표',
         'talks.title': '초청 발표',
         'talks.type.panel': '패널 토크',
+        'talks.beatpaws.title': 'Codex로 만든 BeatPaws 제작기',
+        'talks.beatpaws.subtitle': '단국대 Tech for !mpact for Campus',
+        'talks.beatpaws.desc': '단국대 Tech for !mpact for Campus 수업에서 Vibe Jam 2026 참여작 BeatPaws를 Codex로 만든 과정을 나눈 1시간 세션. AI-written code가 실제로 플레이할 만한 게임이 되려면 작은 플레이 루프, 직접 플레이 검증, 피드백, 반복 개선이 필요하다는 점을 중심으로 이야기했습니다.',
+        'talks.beatpaws.youtubeKo': '한글 강의 발표 영상',
+        'talks.beatpaws.youtubeEn': '영어 강의 발표 영상',
         'talks.iwd.title': "International Women's Day: Female Leadership in AI",
         'talks.iwd.subtitle': '주한 캐나다대사관 · 주한영국대사관 공동 주최',
         'talks.iwd.desc': '2026년 3월 9일에 열리는 행사에 패널 토크 연사로 초청되었습니다. AI 분야에 관심 있는 학부/대학원생 및 커리어 초기 실무자 등 35명이 등록한 자리입니다.',
@@ -523,6 +533,11 @@ function applyTranslations(lang) {
         if (translations[lang] && translations[lang][key]) {
             el.innerHTML = translations[lang][key];
         }
+    });
+
+    // Show language-specific elements only in their matching locale.
+    document.querySelectorAll('[data-lang-only]').forEach(el => {
+        el.hidden = el.getAttribute('data-lang-only') !== lang;
     });
 
     // Update HTML lang attribute
