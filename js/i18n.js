@@ -537,7 +537,9 @@ function applyTranslations(lang) {
 
     // Show language-specific elements only in their matching locale.
     document.querySelectorAll('[data-lang-only]').forEach(el => {
-        el.hidden = el.getAttribute('data-lang-only') !== lang;
+        const shouldShow = el.getAttribute('data-lang-only') === lang;
+        el.hidden = !shouldShow;
+        el.style.display = shouldShow ? '' : 'none';
     });
 
     // Update HTML lang attribute

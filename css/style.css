@@ -1521,6 +1521,10 @@ img {
     display: block;
 }
 
+[data-lang-only][hidden] {
+    display: none !important;
+}
+
 .talk-link {
     display: inline-flex;
     align-items: center;
