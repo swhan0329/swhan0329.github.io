@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initI18n();
     initSmoothScroll();
     initExpandableText();
+    initDownloadCounters();
 });
 
 // ===== Expandable Text (Click to Expand/Collapse) =====
@@ -18,6 +19,80 @@ function initExpandableText() {
             desc.classList.toggle('expanded');
         });
     });
+}
+
+// ===== E-book Download Counters =====
+function initDownloadCounters() {
+    const counterEls = document.querySelectorAll('[data-counter-key]');
+    const downloadLinks = document.querySelectorAll('.js-download-track[data-counter-key]');
+
+    if (!counterEls.length && !downloadLinks.length) return;
+
+    const counterBaseUrl = 'https://countapi.mileshilliard.com/api/v1';
+    const keys = [...new Set(Array.from(counterEls).map(el => el.dataset.counterKey).filter(Boolean))];
+
+    keys.forEach(key => {
+        setCounterState(key, 'loading');
+        fetch(`${counterBaseUrl}/get/${encodeURIComponent(key)}`)
+            .then(response => {
+                if (response.status === 404) {
+                    return { value: 0 };
+                }
+                if (!response.ok) {
+                    throw new Error(`Counter request failed: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => setCounterValue(key, data.value || 0))
+            .catch(() => setCounterState(key, 'unavailable'));
+    });
+
+    downloadLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            const key = link.dataset.counterKey;
+            if (!key) return;
+
+            fetch(`${counterBaseUrl}/hit/${encodeURIComponent(key)}`, {
+                method: 'GET',
+                cache: 'no-store',
+                keepalive: true
+            })
+                .then(response => response.ok ? response.json() : null)
+                .then(data => {
+                    if (data && data.value !== undefined) {
+                        setCounterValue(key, data.value);
+                    }
+                })
+                .catch(() => {
+                    // Counting should never block the download action.
+                });
+        });
+    });
+}
+
+function setCounterValue(key, value) {
+    document.querySelectorAll(`[data-counter-key="${key}"]`).forEach(el => {
+        const valueEl = el.querySelector('[data-count-value]');
+        if (!valueEl) return;
+
+        el.classList.remove('is-loading', 'is-unavailable');
+        valueEl.textContent = Number(value).toLocaleString();
+    });
+}
+
+function setCounterState(key, state) {
+    document.querySelectorAll(`[data-counter-key="${key}"]`).forEach(el => {
+        const valueEl = el.querySelector('[data-count-value]');
+        if (!valueEl) return;
+
+        el.classList.toggle('is-loading', state === 'loading');
+        el.classList.toggle('is-unavailable', state === 'unavailable');
+        valueEl.textContent = state === 'loading' ? '...' : getCounterUnavailableText();
+    });
+}
+
+function getCounterUnavailableText() {
+    return document.documentElement.lang === 'ko' ? '집계 준비 중' : 'Counting soon';
 }
 
 // ===== Theme Toggle =====

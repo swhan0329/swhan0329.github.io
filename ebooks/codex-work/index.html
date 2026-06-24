@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Codex로 내 업무 맡기기 | E-book</title>
+    <meta name="title" content="Codex로 내 업무 맡기기 | E-book">
+    <meta name="description"
+        content="Codex를 업무 환경으로 이해하고, 맥락 제공, 지시, 결과 검토, 수정 요청을 반복 가능한 워크플로우로 만드는 무료 e-book입니다.">
+    <meta name="keywords" content="Codex, OpenAI Codex, e-book, 한서우, 업무 자동화, AI 워크플로우">
+    <meta name="author" content="Seowoo Han">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://swhan0329.github.io/ebooks/codex-work/">
+
+    <meta property="og:type" content="book">
+    <meta property="og:url" content="https://swhan0329.github.io/ebooks/codex-work/">
+    <meta property="og:title" content="Codex로 내 업무 맡기기 | E-book">
+    <meta property="og:description" content="AI에게 요약시키지 말고 직접 1-2시간 읽을 가치가 있는 Codex 실전 업무 가이드.">
+    <meta property="og:image" content="https://swhan0329.github.io/assets/ebooks/codex-work-real-book-cover-v3.png">
+    <meta property="og:locale" content="ko_KR">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://swhan0329.github.io/ebooks/codex-work/">
+    <meta property="twitter:title" content="Codex로 내 업무 맡기기 | E-book">
+    <meta property="twitter:description" content="AI에게 요약시키지 말고 직접 1-2시간 읽을 가치가 있는 Codex 실전 업무 가이드.">
+    <meta property="twitter:image" content="https://swhan0329.github.io/assets/ebooks/codex-work-real-book-cover-v3.png">
+
+    <link rel="icon" type="image/jpeg" href="../../assets/profile.jpg">
+    <link rel="apple-touch-icon" href="../../assets/profile.jpg">
+    <meta name="theme-color" content="#3b82f6">
+
+    <link rel="stylesheet" href="../../css/style.css?v=20260624-ebook-detail">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="nav" id="nav">
+                <a href="../../#about" data-i18n="nav.about">About</a>
+                <a href="../../#experience" data-i18n="nav.experience">Experience</a>
+                <a href="../../#ecosystem" data-i18n="nav.ecosystem">Codex & DevX</a>
+                <a href="../../#ebook" data-i18n="nav.ebook">E-book</a>
+                <a href="../../#projects" data-i18n="nav.projects">Projects</a>
+                <a href="../../#teaching" data-i18n="nav.teaching">Teaching</a>
+                <a href="../../#talks" data-i18n="nav.talks">Talks</a>
+                <a href="../../#media" data-i18n="nav.media">Media</a>
+                <a href="../../#publications" data-i18n="nav.publications">Publications</a>
+                <a href="../../#life" data-i18n="nav.life">Life</a>
+            </nav>
+            <div class="header-actions">
+                <button class="lang-toggle" id="langToggle" aria-label="Toggle Language">
+                    <span class="lang-text">EN</span>
+                </button>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
+                    <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="ebook-detail-page">
+        <section class="section ebook-detail-hero">
+            <div class="container">
+                <div class="ebook-detail-grid">
+                    <div class="ebook-detail-cover">
+                        <div class="ebook-cover-card">
+                            <img src="../../assets/ebooks/codex-work-real-book-cover-v3.png" alt="Codex로 내 업무 맡기기 e-book cover">
+                        </div>
+                    </div>
+
+                    <div class="ebook-detail-summary" data-lang-only="ko">
+                        <a href="../" class="ebook-breadcrumb">E-books</a>
+                        <div class="ebook-kicker-row">
+                            <span class="proof-label">무료 PDF</span>
+                            <span class="ebook-price">0원 무료</span>
+                        </div>
+                        <h1>Codex로 내 업무 맡기기</h1>
+                        <p class="ebook-detail-lead">
+                            이 책은 프롬프트 모음집이 아닙니다. Codex를 하나의 업무 환경으로 이해하고, 맥락을 준비하고, 지시하고, 결과를 검토하고, 다시 맡기는 흐름을 내 업무에 붙이는 방법을 다룹니다.
+                        </p>
+                        <p class="ebook-reading-note">
+                            AI에게 이 책을 요약하게 하지 마세요. 직접 1-2시간 시간을 내서 읽으세요. 그만한 가치가 있습니다.
+                        </p>
+                        <div class="ebook-detail-actions">
+                            <a href="https://drive.google.com/uc?export=download&amp;id=1JW9AJKdFu70Rv7koeUdpik_sKYFe56aM"
+                                class="btn btn-primary js-download-track" target="_blank" rel="noopener"
+                                data-counter-key="swhan0329_github_io_codex_work_downloads">PDF 다운로드</a>
+                            <a href="#reviews" class="btn btn-secondary">구매평 보기</a>
+                        </div>
+                        <div class="ebook-count" data-counter-key="swhan0329_github_io_codex_work_downloads">
+                            <span>다운로드</span>
+                            <strong data-count-value>0</strong>
+                        </div>
+                    </div>
+
+                    <div class="ebook-detail-summary" data-lang-only="en" hidden>
+                        <a href="../" class="ebook-breadcrumb">E-books</a>
+                        <div class="ebook-kicker-row">
+                            <span class="proof-label">Free PDF</span>
+                            <span class="ebook-price">Free · $0</span>
+                        </div>
+                        <h1>Delegate Your Work to Codex</h1>
+                        <p class="ebook-detail-lead">
+                            This is not a prompt collection. It explains how to treat Codex as a work environment, prepare context, give instructions, review outputs, and hand the next iteration back.
+                        </p>
+                        <p class="ebook-reading-note">
+                            Do not ask AI to summarize this book for you. Set aside 1-2 hours and read it yourself. It is worth that time.
+                        </p>
+                        <div class="ebook-detail-actions">
+                            <a href="https://drive.google.com/uc?export=download&amp;id=1JW9AJKdFu70Rv7koeUdpik_sKYFe56aM"
+                                class="btn btn-primary js-download-track" target="_blank" rel="noopener"
+                                data-counter-key="swhan0329_github_io_codex_work_downloads">Download PDF</a>
+                            <a href="#reviews" class="btn btn-secondary">Read reviews</a>
+                        </div>
+                        <div class="ebook-count" data-counter-key="swhan0329_github_io_codex_work_downloads">
+                            <span>Downloads</span>
+                            <strong data-count-value>0</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section ebook-detail-section" data-lang-only="ko">
+            <div class="container">
+                <h2>책 내용</h2>
+                <div class="ebook-detail-content-grid">
+                    <article>
+                        <h3>Codex를 업무 환경으로 보는 관점</h3>
+                        <p>Codex를 질문 답변 도구로만 쓰면 금방 한계가 옵니다. 이 책은 자료를 주고, 작업 환경을 열어두고, 결과를 확인하고, 다시 수정 요청하는 반복 구조를 먼저 잡습니다.</p>
+                    </article>
+                    <article>
+                        <h3>일을 맡기기 전에 준비해야 할 맥락</h3>
+                        <p>좋은 결과는 좋은 프롬프트 하나보다 좋은 작업 맥락에서 나옵니다. 목적, 파일, 제약, 예시, 원하는 출력 형태를 어떻게 제공해야 하는지 설명합니다.</p>
+                    </article>
+                    <article>
+                        <h3>검토와 재요청까지 포함한 루프</h3>
+                        <p>AI가 만든 결과를 그대로 믿는 대신, 사람이 어디를 보고 판단해야 하는지, 어떤 피드백을 다시 줘야 다음 결과가 좋아지는지 다룹니다.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-alt ebook-detail-section" data-lang-only="ko">
+            <div class="container">
+                <h2>상세 목차</h2>
+                <ol class="ebook-toc-list">
+                    <li><strong>Codex는 채팅창이 아니다</strong><span>업무 환경, 파일, 명령, 확인 루프를 함께 이해하기</span></li>
+                    <li><strong>자료 제공에서 시작하기</strong><span>내가 가진 문서와 맥락을 어떻게 넘길지 정리하기</span></li>
+                    <li><strong>좋은 지시의 형태</strong><span>애매한 부탁을 검토 가능한 작업 지시로 바꾸는 방법</span></li>
+                    <li><strong>결과 확인과 수정 요청</strong><span>사람이 확인해야 할 지점과 다시 맡기는 문장 만들기</span></li>
+                    <li><strong>문서, 메일, 리서치에 적용하기</strong><span>코드가 아닌 일반 업무에서도 Codex를 쓰는 예시</span></li>
+                    <li><strong>코드 작업에 적용하기</strong><span>작은 수정, 검증, 리뷰 흐름으로 안정적으로 맡기기</span></li>
+                    <li><strong>내 업무 패턴 만들기</strong><span>반복되는 일을 나만의 워크플로우로 저장하기</span></li>
+                    <li><strong>처음 1-2시간 읽기 루틴</strong><span>요약 대신 직접 읽고 바로 실습하는 방법</span></li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="section ebook-detail-section" data-lang-only="ko">
+            <div class="container">
+                <h2>상세 정보</h2>
+                <dl class="ebook-detail-specs">
+                    <div><dt>가격</dt><dd>0원 무료</dd></div>
+                    <div><dt>형식</dt><dd>PDF</dd></div>
+                    <div><dt>파일 크기</dt><dd>13.7 MB</dd></div>
+                    <div><dt>버전</dt><dd>2026.06.23</dd></div>
+                    <div><dt>추천 독자</dt><dd>Codex를 업무에 처음 연결하려는 개발자, PM, 기획자, 지식 노동자</dd></div>
+                    <div><dt>권장 읽기 방식</dt><dd>AI 요약 대신 1-2시간 직접 읽기</dd></div>
+                </dl>
+            </div>
+        </section>
+
+        <section class="section section-alt ebook-detail-section" id="reviews" data-lang-only="ko">
+            <div class="container">
+                <h2>구매평 · 독자 후기</h2>
+                <div class="ebook-review-card">
+                    <span class="proof-label">첫 후기 모집 중</span>
+                    <p>아직 공개 직후라 실제 독자 후기를 모으는 중입니다. 읽고 도움이 됐다면 짧은 후기나 적용 사례를 보내주세요. 이후 이 영역에 실제 독자 반응을 추가하겠습니다.</p>
+                    <a href="mailto:hello@seowoohan.com?subject=Codex%EB%A1%9C%20%EB%82%B4%20%EC%97%85%EB%AC%B4%20%EB%A7%A1%EA%B8%B0%EA%B8%B0%20%ED%9B%84%EA%B8%B0" class="btn btn-secondary">후기 보내기</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section ebook-detail-section" data-lang-only="en" hidden>
+            <div class="container">
+                <h2>What Is Inside</h2>
+                <div class="ebook-detail-content-grid">
+                    <article>
+                        <h3>Codex as a Work Environment</h3>
+                        <p>The book starts with the idea that Codex is not just a chat box. It is a loop of context, files, instructions, review, and follow-up edits.</p>
+                    </article>
+                    <article>
+                        <h3>Context Before Instructions</h3>
+                        <p>Good outputs come from good working context. The guide explains how to provide purpose, files, constraints, examples, and expected output shape.</p>
+                    </article>
+                    <article>
+                        <h3>Review and Re-delegate</h3>
+                        <p>Instead of trusting AI output blindly, it shows what humans should inspect and how to give feedback for the next iteration.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-alt ebook-detail-section" data-lang-only="en" hidden>
+            <div class="container">
+                <h2>Table of Contents</h2>
+                <ol class="ebook-toc-list">
+                    <li><strong>Codex Is Not a Chat Window</strong><span>Understand the work environment, files, commands, and review loop</span></li>
+                    <li><strong>Start With Context</strong><span>Prepare documents and constraints before asking for work</span></li>
+                    <li><strong>Useful Instructions</strong><span>Turn vague requests into reviewable task instructions</span></li>
+                    <li><strong>Review and Revision</strong><span>Know what to inspect and how to ask for the next iteration</span></li>
+                    <li><strong>Documents, Email, and Research</strong><span>Examples beyond coding work</span></li>
+                    <li><strong>Coding Workflows</strong><span>Small edits, validation, and review loops</span></li>
+                    <li><strong>Your Own Patterns</strong><span>Turn repeatable work into reusable workflows</span></li>
+                    <li><strong>First 1-2 Hour Routine</strong><span>Read and practice directly instead of outsourcing the reading</span></li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="section ebook-detail-section" data-lang-only="en" hidden>
+            <div class="container">
+                <h2>Details</h2>
+                <dl class="ebook-detail-specs">
+                    <div><dt>Price</dt><dd>Free · $0</dd></div>
+                    <div><dt>Format</dt><dd>PDF</dd></div>
+                    <div><dt>File size</dt><dd>13.7 MB</dd></div>
+                    <div><dt>Version</dt><dd>2026.06.23</dd></div>
+                    <div><dt>Recommended for</dt><dd>Developers, PMs, planners, and knowledge workers trying Codex for real work</dd></div>
+                    <div><dt>Reading style</dt><dd>Read directly for 1-2 hours instead of asking AI for a summary</dd></div>
+                </dl>
+            </div>
+        </section>
+
+        <section class="section section-alt ebook-detail-section" id="reviews-en" data-lang-only="en" hidden>
+            <div class="container">
+                <h2>Reviews</h2>
+                <div class="ebook-review-card">
+                    <span class="proof-label">Collecting first reviews</span>
+                    <p>This e-book has just been published, so real reader reviews are still being collected. If it helps you, send a short note or example of how you used it.</p>
+                    <a href="mailto:hello@seowoohan.com?subject=Codex%20e-book%20review" class="btn btn-secondary">Send a review</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Seowoo Han. <span data-i18n="footer.rights">All rights reserved.</span></p>
+        </div>
+    </footer>
+
+    <script src="../../js/i18n.js?v=20260624-ebook-detail"></script>
+    <script src="../../js/main.js?v=20260624-ebook-detail"></script>
+</body>
+
+</html>
