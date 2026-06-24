@@ -31,7 +31,7 @@ jobs:
       - name: Prepare site artifact
         run: |
           mkdir -p _site
-          cp -R assets css js _site/
+          cp -R assets css js ebooks _site/
           cp index.html robots.txt sitemap.xml _site/
           touch _site/.nojekyll
 
