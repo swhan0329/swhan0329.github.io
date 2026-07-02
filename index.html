@@ -694,71 +694,91 @@
     <!-- E-book Section -->
     <section class="section ebook-section" id="ebook">
         <div class="container">
-            <div class="ebook-panel">
-                <div class="ebook-copy">
-                    <div class="ebook-kicker-row">
-                        <span class="proof-label" data-i18n="ebook.label">Free PDF</span>
-                        <span class="ebook-price" data-i18n="ebook.price">0원</span>
-                    </div>
-                    <h2 class="section-title" data-i18n="ebook.title">Codex로 내 업무 맡기기</h2>
-                    <p class="ebook-desc" data-i18n="ebook.desc">
-                        Codex를 처음 업무에 연결하는 사람을 위한 실전 e-book입니다. 개념, 예시, 워크플로우를 한 번에 훑고 바로 적용할 수 있도록 정리했습니다.
-                    </p>
-                    <p class="ebook-reading-note" data-i18n="ebook.readingNote">
-                        AI에게 이 책을 요약하게 하지 마세요. 직접 1-2시간 시간을 내서 읽으세요. 그만한 가치가 있습니다.
-                    </p>
-                    <div class="ebook-preview-list">
-                        <h3 data-i18n="ebook.previewTitle">Preview</h3>
-                        <ul>
-                            <li data-i18n="ebook.preview.item1">Codex를 채팅창이 아니라 업무 환경으로 이해하기</li>
-                            <li data-i18n="ebook.preview.item2">자료 제공, 지시, 결과 확인, 수정 요청의 기본 루프</li>
-                            <li data-i18n="ebook.preview.item3">반복 업무를 안전하게 맡기기 위한 실전 예시</li>
-                            <li data-i18n="ebook.preview.item4">좋은 지시와 나쁜 지시를 가르는 기준</li>
-                            <li data-i18n="ebook.preview.item5">결과물을 검토하고 다시 맡기는 방법</li>
-                            <li data-i18n="ebook.preview.item6">내 업무에 맞는 Codex 사용 패턴 만들기</li>
-                        </ul>
-                    </div>
-                    <dl class="ebook-meta">
-                        <div>
-                            <dt data-i18n="ebook.meta.versionLabel">Version</dt>
-                            <dd data-i18n="ebook.meta.version">2026.06.24</dd>
-                        </div>
-                        <div>
-                            <dt data-i18n="ebook.meta.formatLabel">Format</dt>
-                            <dd data-i18n="ebook.meta.format">PDF · 13.7 MB</dd>
-                        </div>
-                        <div>
-                            <dt data-i18n="ebook.meta.updateLabel">Update</dt>
-                            <dd data-i18n="ebook.meta.update">Drive file versioned</dd>
-                        </div>
-                    </dl>
-                </div>
-                <div class="ebook-download">
-                    <div class="ebook-cover-card">
+            <div class="ebook-home-header">
+                <span class="proof-label" data-i18n="ebooks.label">자료실</span>
+                <h2 class="section-title" data-i18n="ebook.home.title">무료 E-books</h2>
+                <p data-i18n="ebook.home.desc">
+                    Codex를 업무에 붙이는 방법부터 AI 바이브코딩 협업 전에 알아두면 좋은 IT·개발·스타트업 용어까지, 바로 읽고 써먹을 수 있는 PDF 자료를 모았습니다.
+                </p>
+            </div>
+
+            <div class="ebook-home-grid">
+                <article class="ebook-home-card ebook-home-card-primary">
+                    <div class="ebook-home-cover">
                         <img src="assets/ebooks/codex-work-real-book-cover-v3.png" alt="Codex로 내 업무 맡기기 e-book cover">
                     </div>
-                    <div class="ebook-count" data-counter-key="swhan0329_github_io_codex_work_downloads">
-                        <span data-i18n="ebook.downloadCountLabel">Downloads</span>
-                        <strong data-count-value>0</strong>
+                    <div class="ebook-home-copy">
+                        <div class="ebook-kicker-row">
+                            <span class="proof-label" data-i18n="ebook.label">무료 PDF</span>
+                            <span class="ebook-price" data-i18n="ebook.price">0원 무료</span>
+                        </div>
+                        <h3 data-i18n="ebook.title">Codex로 내 업무 맡기기</h3>
+                        <p data-i18n="ebook.desc">
+                            Codex를 처음 업무에 연결하는 사람을 위한 실전 e-book입니다. 맥락 준비, 지시, 결과 검토, 수정 요청을 반복 가능한 워크플로우로 정리했습니다.
+                        </p>
+                        <ul class="ebook-home-points">
+                            <li data-i18n="ebook.home.codex.point1">Codex를 채팅창이 아니라 업무 환경으로 이해하기</li>
+                            <li data-i18n="ebook.home.codex.point2">자료 제공, 지시, 결과 확인, 수정 요청의 기본 루프</li>
+                            <li data-i18n="ebook.home.codex.point3">문서, 리서치, 메일, 코드 작업에 적용하는 예시</li>
+                        </ul>
+                        <div class="ebook-home-meta">
+                            <span data-i18n="ebook.meta.format">PDF · 13.7 MB</span>
+                            <span data-i18n="ebook.meta.version">2026.06.24</span>
+                        </div>
+                        <div class="ebook-count" data-counter-key="swhan0329_github_io_codex_work_downloads">
+                            <span data-i18n="ebook.downloadCountLabel">다운로드</span>
+                            <strong data-count-value>0</strong>
+                        </div>
+                        <div class="ebook-actions">
+                            <a href="ebooks/codex-work/" class="btn btn-primary" data-i18n="ebooks.detailCta">상세 보기</a>
+                            <a href="https://drive.google.com/uc?export=download&amp;id=1ME-mT6_WSED1KKVBIPLzm3Dj0NHjk-0z"
+                                class="btn btn-secondary js-download-track" target="_blank" rel="noopener"
+                                data-counter-key="swhan0329_github_io_codex_work_downloads"
+                                data-i18n="ebook.download">PDF 다운로드</a>
+                        </div>
                     </div>
-                    <div class="ebook-actions">
-                        <a href="https://drive.google.com/uc?export=download&amp;id=1ME-mT6_WSED1KKVBIPLzm3Dj0NHjk-0z"
-                            class="btn btn-primary ebook-download-btn js-download-track" target="_blank" rel="noopener"
-                            data-counter-key="swhan0329_github_io_codex_work_downloads"
-                            data-i18n="ebook.download">Download PDF</a>
-                        <a href="ebooks/" class="btn btn-secondary" data-i18n="ebook.all">View all e-books</a>
-                    </div>
-                    <p class="ebook-note" data-i18n="ebook.note">
-                        The download button keeps working when this same Drive file is updated with a new version.
-                    </p>
-                    <a href="ebooks/pangyo-dictionary/" class="ebook-related-card">
+                </article>
+
+                <article class="ebook-home-card">
+                    <div class="ebook-home-cover">
                         <img src="assets/ebooks/pangyo-dictionary-book-mockup-v5.jpg" alt="판교어 사전 e-book book mockup">
-                        <span>
-                            <strong data-i18n="ebook.related.pangyo.title">판교어 사전</strong>
-                            <small data-i18n="ebook.related.pangyo.desc">AI 바이브코딩 협업 전에 보는 IT · 개발 · 스타트업 용어 240</small>
-                        </span>
-                    </a>
-                </div>
+                    </div>
+                    <div class="ebook-home-copy">
+                        <div class="ebook-kicker-row">
+                            <span class="proof-label" data-i18n="pangyo.label">무료 PDF</span>
+                            <span class="ebook-price" data-i18n="pangyo.price">0원 무료</span>
+                        </div>
+                        <h3 data-i18n="pangyo.title">판교어 사전</h3>
+                        <p data-i18n="pangyo.desc">
+                            AI로 바이브코딩하고 개발자·기획자·스타트업 사람들과 대화할 때 자주 만나는 IT 실전 용어 240개를 가볍게 훑는 PDF 사전입니다.
+                        </p>
+                        <ul class="ebook-home-points">
+                            <li data-i18n="pangyo.preview.item1">회의·소통: 얼라인, 싱크, 컨펌, 팔로업, 스크럼</li>
+                            <li data-i18n="pangyo.preview.item3">개발 실전: 배포, 롤백, QA, 코드리뷰, API, 바이브코딩</li>
+                            <li data-i18n="pangyo.preview.item5">AI·스타트업 씬: LLM, RAG, 피칭, 밸류에이션, PMF</li>
+                        </ul>
+                        <div class="ebook-home-meta">
+                            <span data-i18n="pangyo.meta.format">PDF · 18 pages</span>
+                            <span data-i18n="pangyo.meta.version">2026.07.02</span>
+                        </div>
+                        <div class="ebook-count" data-counter-key="swhan0329_github_io_pangyo_dictionary_downloads">
+                            <span data-i18n="ebook.downloadCountLabel">다운로드</span>
+                            <strong data-count-value>0</strong>
+                        </div>
+                        <div class="ebook-actions">
+                            <a href="ebooks/pangyo-dictionary/" class="btn btn-primary" data-i18n="ebooks.detailCta">상세 보기</a>
+                            <a href="https://drive.google.com/uc?export=download&amp;id=1zhmlIp4DhQfUR2cjSlQj-nCV4YbMPi0i"
+                                class="btn btn-secondary js-download-track" target="_blank" rel="noopener"
+                                data-counter-key="swhan0329_github_io_pangyo_dictionary_downloads"
+                                data-i18n="ebook.download">PDF 다운로드</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="ebook-home-footer">
+                <a href="ebooks/" class="btn btn-secondary" data-i18n="ebook.all">전체 e-book 보기</a>
+                <p data-i18n="ebook.note">같은 Drive 파일에서 새 버전을 업로드하면 이 다운로드 버튼은 그대로 최신본을 내려받습니다.</p>
             </div>
         </div>
     </section>
