@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initSmoothScroll();
     initExpandableText();
     initDownloadCounters();
+    initSaleDeadlines();
 });
 
 // ===== Expandable Text (Click to Expand/Collapse) =====
@@ -93,6 +94,48 @@ function setCounterState(key, state) {
 
 function getCounterUnavailableText() {
     return document.documentElement.lang === 'ko' ? '집계 준비 중' : 'Counting soon';
+}
+
+// ===== Limited E-book Sales =====
+function initSaleDeadlines() {
+    const saleLinks = document.querySelectorAll('[data-sale-deadline]');
+
+    saleLinks.forEach(link => {
+        const deadline = Date.parse(link.dataset.saleDeadline);
+        if (Number.isNaN(deadline)) return;
+
+        const closeSaleIfNeeded = () => {
+            if (Date.now() < deadline || link.classList.contains('is-sale-closed')) return;
+
+            link.classList.add('is-sale-closed');
+            link.removeAttribute('href');
+            link.removeAttribute('target');
+            link.removeAttribute('rel');
+            link.setAttribute('aria-disabled', 'true');
+            link.setAttribute('tabindex', '-1');
+
+            const cta = link.querySelector('.js-sale-cta');
+            if (cta) {
+                cta.dataset.i18n = 'arrow.closed';
+                cta.textContent = document.documentElement.lang === 'ko' ? '판매 종료' : 'Sale ended';
+            }
+
+            const deadlineNote = link.querySelector('.ebook-sale-deadline');
+            if (deadlineNote) {
+                deadlineNote.dataset.i18n = 'arrow.closedNote';
+                deadlineNote.textContent = document.documentElement.lang === 'ko'
+                    ? '한정 판매 기간이 종료되었습니다.'
+                    : 'This limited sale has ended.';
+            }
+        };
+
+        closeSaleIfNeeded();
+
+        const remainingTime = deadline - Date.now();
+        if (remainingTime > 0) {
+            window.setTimeout(closeSaleIfNeeded, Math.min(remainingTime, 2147483647));
+        }
+    });
 }
 
 // ===== Theme Toggle =====
