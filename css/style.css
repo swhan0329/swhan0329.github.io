@@ -517,6 +517,9 @@ img {
 
 .ebook-home-cover {
     overflow: hidden;
+    width: 100%;
+    min-width: 0;
+    align-self: start;
     border: 1px solid var(--border);
     border-radius: 10px;
     background-color: var(--bg-secondary);
@@ -530,8 +533,12 @@ img {
     object-fit: contain;
 }
 
+.ebook-home-cover-square {
+    background-color: #073f39;
+}
+
 .ebook-home-cover-square img {
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .ebook-home-card-link,
@@ -630,6 +637,7 @@ img {
 
 .ebook-home-card-link .ebook-actions {
     grid-template-columns: 1fr;
+    margin-top: auto;
 }
 
 .ebook-home-footer {
