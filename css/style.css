@@ -1328,6 +1328,25 @@ img {
     line-height: 1.55;
 }
 
+.ebook-toc-revision {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.8rem 1rem;
+    border: 1px dashed var(--border);
+    border-radius: 10px;
+    color: var(--text-secondary);
+    background-color: var(--card-bg);
+    font-size: 0.86rem;
+}
+
+.ebook-toc-revision strong {
+    color: var(--text-primary);
+    font-size: 0.92rem;
+}
+
 .ebook-detail-specs {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));

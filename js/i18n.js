@@ -841,8 +841,10 @@ function applyTranslations(lang) {
     document.documentElement.lang = lang;
 
     // Keep the browser title and share metadata aligned with the selected language.
-    document.title = translations[lang]['meta.title'];
-    const description = translations[lang]['meta.description'];
+    // Subpages can provide page-specific metadata on <body> instead of inheriting the home-page profile metadata.
+    const metaSuffix = lang === 'ko' ? 'Ko' : 'En';
+    document.title = document.body.dataset[`metaTitle${metaSuffix}`] || translations[lang]['meta.title'];
+    const description = document.body.dataset[`metaDescription${metaSuffix}`] || translations[lang]['meta.description'];
     document.querySelector('meta[name="title"]')?.setAttribute('content', document.title);
     document.querySelector('meta[name="description"]')?.setAttribute('content', description);
     document.querySelector('meta[property="og:title"]')?.setAttribute('content', document.title);
