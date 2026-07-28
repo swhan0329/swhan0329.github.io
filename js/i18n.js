@@ -3,7 +3,6 @@ const translations = {
     en: {
         'nav.about': 'About',
         'nav.portfolio': 'Portfolio',
-        'nav.content': 'Writing & Media',
         'nav.more': 'More',
         'nav.experience': 'Experience',
         'nav.projects': 'Projects',
@@ -52,26 +51,6 @@ const translations = {
         'portfolio.community.title': 'Communities where one person’s work becomes another’s next experiment',
         'portfolio.community.desc': 'Through Workflow Show & Tell and Codex workshops, I gather cases, connect people and programs, and publish the outcomes.',
         'portfolio.community.cta': 'View the results page ↗',
-
-        // Public content hub
-        'content.kicker': 'Public work',
-        'content.title': 'Work documented through writing, press, and video',
-        'content.intro': 'I publish how projects were built, the conditions observed in practice, and the outcomes of community work with links to the original sources.',
-        'content.posts.title': 'Field posts',
-        'content.posts.skillathon': 'Teaching Codex and Skill building at Day1 Company AX Skillathon',
-        'content.posts.workflow': 'Workflow Show & Tell Seoul post-event reflection',
-        'content.posts.impact': 'Codex Impact Workshop results',
-        'content.posts.cta': 'View the full LinkedIn archive →',
-        'content.articles.label': 'Articles',
-        'content.articles.title': 'Technical articles',
-        'content.articles.cta': 'View the full article archive →',
-        'content.video.title': 'Talks and interviews',
-        'content.video.beatpaws': 'Building BeatPaws with Codex',
-        'content.video.interview': 'WantedLab profile interview',
-        'content.video.cta': 'View the video archive →',
-        'content.press.label': 'Press',
-        'content.press.title': 'Press and external coverage',
-        'content.press.cta': 'View all press and media →',
 
         // About
         'about.title': 'About Me',
@@ -207,8 +186,7 @@ const translations = {
         'talks.beatpaws.title': 'Building BeatPaws with Codex',
         'talks.beatpaws.subtitle': 'Dankook University Tech for !mpact for Campus',
         'talks.beatpaws.desc': 'A one-hour session on building BeatPaws, a web rhythm game made with Codex for Vibe Jam 2026, and how AI-written code becomes a real playable product through small loops, playtesting, feedback, and iteration.',
-        'talks.beatpaws.youtubeKo': 'Korean Lecture Video',
-        'talks.beatpaws.youtubeEn': 'English Lecture Video',
+        'talks.beatpaws.youtube': 'English Lecture Video',
         'talks.iwd.title': "International Women's Day: Female Leadership in AI",
         'talks.iwd.subtitle': 'Canadian & UK Embassies in Seoul',
         'talks.iwd.desc': 'Invited panel speaker for the March 9, 2026 event co-hosted by the Canadian and UK Embassies in Seoul, joined by 35 participants including students and early-career AI professionals.',
@@ -281,8 +259,7 @@ const translations = {
         'ecosystem.article.agentWorkflow': 'Agent Workflow Evolution with OmC, OmX, and Codex',
         'ecosystem.article.dearHumans': "Dear Humans, What AI Still Can't Answer for Us",
         'ecosystem.article.codexSimple': 'Codex, Explained Simply',
-        'ecosystem.article.pluginsEn': 'How Plugins Actually Work in Codex (EN)',
-        'ecosystem.article.pluginsKo': 'How Plugins Actually Work in Codex (KO)',
+        'ecosystem.article.plugins': 'How Plugins Actually Work in Codex',
         'ecosystem.link.codexAnnouncement': 'OpenAI Codex Ambassador announcement',
         'ecosystem.link.meetupRecruitment': 'Codex Community Meetup - Seoul 3.11 (Host Recap)',
         'ecosystem.link.codex101Story': 'Why I built Codex 101',
@@ -411,7 +388,6 @@ const translations = {
         // Navigation
         'nav.about': '소개',
         'nav.portfolio': '포트폴리오',
-        'nav.content': '글과 미디어',
         'nav.more': '더 보기',
         'nav.experience': '경력',
         'nav.projects': '프로젝트',
@@ -460,26 +436,6 @@ const translations = {
         'portfolio.community.title': '다른 사람의 작업이 다음 실험이 되는 커뮤니티',
         'portfolio.community.desc': 'Workflow Show & Tell과 Codex 워크숍에서 사례를 모으고, 사람과 프로그램을 연결하며 결과를 공개 기록으로 남깁니다.',
         'portfolio.community.cta': '결과 페이지 보기 ↗',
-
-        // Public content hub
-        'content.kicker': 'Public work',
-        'content.title': '글, 기사, 영상으로 남긴 작업',
-        'content.intro': '프로젝트를 만든 과정, 현장에서 확인한 조건, 커뮤니티의 결과를 원문과 함께 공개합니다. 아래에는 최근 대표 콘텐츠를, 각 아카이브에는 전체 기록을 남겼습니다.',
-        'content.posts.title': '현장 포스팅',
-        'content.posts.skillathon': 'Day1 Company AX Skillathon 강의 기록',
-        'content.posts.workflow': 'Workflow Show & Tell Seoul 행사 후기',
-        'content.posts.impact': 'Codex Impact Workshop 결과 공유',
-        'content.posts.cta': 'LinkedIn 전체 아카이브 보기 →',
-        'content.articles.label': 'Articles',
-        'content.articles.title': '기술 아티클',
-        'content.articles.cta': '아티클 전체 아카이브 보기 →',
-        'content.video.title': '발표와 인터뷰 영상',
-        'content.video.beatpaws': 'Codex로 BeatPaws 만들기 발표',
-        'content.video.interview': '원티드랩 인물도감 인터뷰',
-        'content.video.cta': '영상 아카이브 보기 →',
-        'content.press.label': 'Press',
-        'content.press.title': '기사와 외부 기록',
-        'content.press.cta': '기사와 미디어 전체 보기 →',
 
         // About
         'about.title': '소개',
@@ -614,8 +570,7 @@ const translations = {
         'talks.beatpaws.title': 'Codex로 만든 BeatPaws 제작기',
         'talks.beatpaws.subtitle': '단국대 Tech for !mpact for Campus',
         'talks.beatpaws.desc': '단국대 Tech for !mpact for Campus 수업에서 Vibe Jam 2026 참여작 BeatPaws를 Codex로 만든 과정을 나눈 1시간 세션. AI-written code가 실제로 플레이할 만한 게임이 되려면 작은 플레이 루프, 직접 플레이 검증, 피드백, 반복 개선이 필요하다는 점을 중심으로 이야기했습니다.',
-        'talks.beatpaws.youtubeKo': '한글 강의 발표 영상',
-        'talks.beatpaws.youtubeEn': '영어 강의 발표 영상',
+        'talks.beatpaws.youtube': '한글 강의 발표 영상',
         'talks.iwd.title': "International Women's Day: Female Leadership in AI",
         'talks.iwd.subtitle': '주한 캐나다대사관 · 주한영국대사관 공동 주최',
         'talks.iwd.desc': '2026년 3월 9일에 열리는 행사에 패널 토크 연사로 초청되었습니다. AI 분야에 관심 있는 학부/대학원생 및 커리어 초기 실무자 등 35명이 등록한 자리입니다.',
@@ -688,8 +643,7 @@ const translations = {
         'ecosystem.article.agentWorkflow': '에이전트 시대, 우리가 설계해야 할 것은 모델이 아니라 시스템이다',
         'ecosystem.article.dearHumans': 'Dear, Humans: 딸깍의 시대에 우리는 왜 여전히 자기 삶을 살아봐야 할까',
         'ecosystem.article.codexSimple': 'Codex, 쉽게 말해본다면',
-        'ecosystem.article.pluginsEn': 'How Plugins Actually Work in Codex (영문)',
-        'ecosystem.article.pluginsKo': 'Codex에서 Plugin이 실제로 어떻게 동작하는가 (국문)',
+        'ecosystem.article.plugins': 'Codex에서 Plugin이 실제로 어떻게 동작하는가',
         'ecosystem.link.codexAnnouncement': 'OpenAI Codex Ambassador 선정 소식',
         'ecosystem.link.meetupRecruitment': 'Codex Community Meetup - Seoul 3.11 개최 후기',
         'ecosystem.link.codex101Story': 'Codex 101을 만들게 된 이야기',
@@ -873,6 +827,14 @@ function applyTranslations(lang) {
     // Point bilingual external references to the matching source language.
     document.querySelectorAll('[data-href-en][data-href-ko]').forEach(el => {
         el.setAttribute('href', el.getAttribute(`data-href-${lang}`));
+    });
+
+    document.querySelectorAll('[data-alt-en][data-alt-ko]').forEach(el => {
+        el.setAttribute('alt', el.getAttribute(`data-alt-${lang}`));
+    });
+
+    document.querySelectorAll('[data-aria-en][data-aria-ko]').forEach(el => {
+        el.setAttribute('aria-label', el.getAttribute(`data-aria-${lang}`));
     });
 
     // Update HTML lang attribute
