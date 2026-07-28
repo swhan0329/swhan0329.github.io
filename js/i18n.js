@@ -66,7 +66,7 @@ const translations = {
         'content.articles.title': 'Technical articles',
         'content.articles.cta': 'View the full article archive →',
         'content.video.title': 'Talks and interviews',
-        'content.video.codex': 'Codex Ambassador activity playlist',
+        'content.video.beatpaws': 'Building BeatPaws with Codex',
         'content.video.interview': 'WantedLab profile interview',
         'content.video.cta': 'View the video archive →',
         'content.press.label': 'Press',
@@ -298,7 +298,6 @@ const translations = {
         'ecosystem.link.codexOnboardingPdf': '2026.06 Codex onboarding PDF post',
         'ecosystem.link.techabreak.substack': 'Read the interview series',
         'ecosystem.link.techabreak.story': 'Why I started Tech a Break',
-        'ecosystem.link.codexActivityYoutube': 'Codex Ambassador Activity YouTube',
         'ecosystem.link.parentsDayOfficialVideo': "Official OpenAI video: AI Parents' Day",
         'ecosystem.event.meetupHost': '2026.03.11 Codex Community Meetup - Seoul (Solo Host)',
         'ecosystem.event.parentsDayAi': "2026.05.08 OpenAI x FastCampus AI Parents' Day event (Codex Ambassador)",
@@ -386,14 +385,8 @@ const translations = {
 
         'media.profile.title': 'Wanted Lab People Encyclopedia',
         'media.profile.desc': 'An honest conversation about finding meaning in work, dealing with workplace stress and gaslighting, and the lessons learned along the way.',
-        'media.archive.title': 'OpenAI Codex Community Meetup Archive',
-        'media.archive.desc': 'A collection of the March 11, 2026 Seoul meetup event page and edited talk videos, including the OmX demo session and long-running harness session.',
         'media.btn.article': 'View Article',
         'media.btn.youtube': 'Watch on YouTube',
-        'media.btn.event': 'Event Page',
-        'media.btn.ax': 'AX Talk Video',
-        'media.btn.harness': 'Harness Talk Video',
-        'media.btn.omx': 'OmX Talk Video',
         'media.modulabs.title': 'DVA LAB Story',
         'media.modulabs.desc': 'Interview on building "safe greenhouses" for technical experiments and community-led AI projects.',
 
@@ -481,7 +474,7 @@ const translations = {
         'content.articles.title': '기술 아티클',
         'content.articles.cta': '아티클 전체 아카이브 보기 →',
         'content.video.title': '발표와 인터뷰 영상',
-        'content.video.codex': 'Codex Ambassador 활동 플레이리스트',
+        'content.video.beatpaws': 'Codex로 BeatPaws 만들기 발표',
         'content.video.interview': '원티드랩 인물도감 인터뷰',
         'content.video.cta': '영상 아카이브 보기 →',
         'content.press.label': 'Press',
@@ -712,7 +705,6 @@ const translations = {
         'ecosystem.link.codexOnboardingPdf': '2026.06 Codex 온보딩 PDF 공유 글',
         'ecosystem.link.techabreak.substack': '인터뷰 시리즈 읽기',
         'ecosystem.link.techabreak.story': 'Tech a Break를 시작한 이유',
-        'ecosystem.link.codexActivityYoutube': 'Codex Ambassador 활동 YouTube',
         'ecosystem.link.parentsDayOfficialVideo': 'Official OpenAI 영상: AI 어버이날 행사',
         'ecosystem.event.meetupHost': '2026.03.11 Codex Community Meetup - Seoul (단독 호스트)',
         'ecosystem.event.parentsDayAi': '2026.05.08 OpenAI x 패스트캠퍼스 AI 어버이날 행사 (Codex Ambassador)',
@@ -800,14 +792,8 @@ const translations = {
 
         'media.profile.title': '원티드랩 인물도감',
         'media.profile.desc': '일의 의미, 직장 내 스트레스와 가스라이팅을 극복한 경험, 그리고 그 과정에서 배운 것들에 대한 솔직한 이야기.',
-        'media.archive.title': 'OpenAI Codex Community Meetup 아카이브',
-        'media.archive.desc': '2026년 3월 11일 서울 밋업의 행사 페이지와 편집된 발표 영상 모음입니다. OmX 데모 세션과 long-running harness 세션을 다시 볼 수 있습니다.',
         'media.btn.article': '인물도감 보러가기',
         'media.btn.youtube': '유튜브 보러가기',
-        'media.btn.event': '행사 페이지',
-        'media.btn.ax': 'AX 발표 영상',
-        'media.btn.harness': 'Harness 발표 영상',
-        'media.btn.omx': 'OmX 발표 영상',
         'media.modulabs.title': 'DVA LAB 스토리',
         'media.modulabs.desc': '기술 실험을 위한 "안전한 온실"을 만들고 커뮤니티 주도 AI 프로젝트를 이끄는 이야기.',
 
@@ -882,6 +868,11 @@ function applyTranslations(lang) {
         const shouldShow = el.getAttribute('data-lang-only') === lang;
         el.hidden = !shouldShow;
         el.style.display = shouldShow ? '' : 'none';
+    });
+
+    // Point bilingual external references to the matching source language.
+    document.querySelectorAll('[data-href-en][data-href-ko]').forEach(el => {
+        el.setAttribute('href', el.getAttribute(`data-href-${lang}`));
     });
 
     // Update HTML lang attribute
