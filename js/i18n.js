@@ -2,6 +2,9 @@
 const translations = {
     en: {
         'nav.about': 'About',
+        'nav.portfolio': 'Portfolio',
+        'nav.content': 'Writing & Media',
+        'nav.more': 'More',
         'nav.experience': 'Experience',
         'nav.projects': 'Projects',
         'nav.publications': 'Publications',
@@ -14,17 +17,61 @@ const translations = {
 
         // Site
         'site.name': 'Seowoo Han',
+        'meta.title': 'Seowoo Han | Applied AI Engineer · AX Educator · Codex Ambassador',
+        'meta.description': 'Portfolio of Seowoo Han: applied AI and computer-vision products, AX education, OpenAI Codex Ambassador work, projects, writing, press, and talks.',
 
         // Hero
         'hero.name': 'Seowoo Han',
         'hero.greeting': "Hello, I'm",
-        'hero.title': 'AI Engineer & Developer Experience',
+        'hero.title': 'Applied AI Engineer · AX Educator · Developer Experience',
         'hero.education': 'Ph.D. Candidate, Korea University CS | CMU AI Program (Full Scholarship by IITP, Korea)',
-        'hero.description': 'I’m an AI Engineer with 5+ shipped computer-vision products across drone perception, OCR, and object detection. As an OpenAI Codex Ambassador, I turn Codex, LLMs, and multimodal AI into practical developer workflows, demos, workshops, and learning resources.',
+        'hero.description': 'I connect applied AI and computer vision to real products and operations. Through AX education and my work as an OpenAI Codex Ambassador, I design workflows people can test, review, and reuse in their own work.',
         'hero.cta': 'Get in Touch',
         'hero.projects': 'View Projects',
         'hero.codexWork': 'View Codex Work',
         'hero.codex101': 'Codex 101',
+        'hero.portfolio': 'View selected work',
+
+        // Portfolio overview
+        'portfolio.kicker': 'Selected portfolio',
+        'portfolio.title': 'Connecting technology to products, work, and learning experiences',
+        'portfolio.intro': 'Engineering, AX education, Codex community work, and public content are connected through the roles I took and the work people can verify.',
+        'portfolio.engineering.eyebrow': 'Engineering',
+        'portfolio.engineering.title': 'Applied AI engineering for products and operations',
+        'portfolio.engineering.desc': 'I design inputs, exceptions, and review steps so drone imagery, OCR, object detection, and multimodal data work inside real user flows.',
+        'portfolio.engineering.cta': 'View experience and projects →',
+        'portfolio.codex.eyebrow': 'Codex & DevX',
+        'portfolio.codex.title': 'Codex 101 and practical developer workflows',
+        'portfolio.codex.desc': 'I create Korean and English guides, demos, and onboarding resources that connect new capabilities to real development work.',
+        'portfolio.codex.cta': 'Open Codex 101 ↗',
+        'portfolio.ax.eyebrow': 'AX & Education',
+        'portfolio.ax.title': 'AX education that changes one real workflow',
+        'portfolio.ax.desc': 'My workshops focus on problem definition, execution, human review, and iteration instead of feature walkthroughs.',
+        'portfolio.ax.cta': 'View the AX Skillathon recap ↗',
+        'portfolio.community.eyebrow': 'Community',
+        'portfolio.community.title': 'Communities where one person’s work becomes another’s next experiment',
+        'portfolio.community.desc': 'Through Workflow Show & Tell and Codex workshops, I gather cases, connect people and programs, and publish the outcomes.',
+        'portfolio.community.cta': 'View the results page ↗',
+
+        // Public content hub
+        'content.kicker': 'Public work',
+        'content.title': 'Work documented through writing, press, and video',
+        'content.intro': 'I publish how projects were built, the conditions observed in practice, and the outcomes of community work with links to the original sources.',
+        'content.posts.title': 'Field posts',
+        'content.posts.skillathon': 'Teaching Codex and Skill building at Day1 Company AX Skillathon',
+        'content.posts.workflow': 'Workflow Show & Tell Seoul post-event reflection',
+        'content.posts.impact': 'Codex Impact Workshop results',
+        'content.posts.cta': 'View the full LinkedIn archive →',
+        'content.articles.label': 'Articles',
+        'content.articles.title': 'Technical articles',
+        'content.articles.cta': 'View the full article archive →',
+        'content.video.title': 'Talks and interviews',
+        'content.video.codex': 'Codex Ambassador activity playlist',
+        'content.video.interview': 'WantedLab profile interview',
+        'content.video.cta': 'View the video archive →',
+        'content.press.label': 'Press',
+        'content.press.title': 'Press and external coverage',
+        'content.press.cta': 'View all press and media →',
 
         // About
         'about.title': 'About Me',
@@ -54,6 +101,8 @@ const translations = {
 
         // Projects
         'projects.title': 'AI-native Projects',
+        'projects.kicker': 'Project archive',
+        'projects.portfolioIntro': 'Product work, client work, impact projects, and early experiments are documented with their verified scope and public links.',
         'projects.order.beatpaws': '01 · Codex demo / teaching asset',
         'projects.order.kibbl': '02 · AI product architecture',
         'projects.order.zet': '03 · Agent/client workflow',
@@ -368,6 +417,9 @@ const translations = {
     ko: {
         // Navigation
         'nav.about': '소개',
+        'nav.portfolio': '포트폴리오',
+        'nav.content': '글과 미디어',
+        'nav.more': '더 보기',
         'nav.experience': '경력',
         'nav.projects': '프로젝트',
         'nav.publications': '논문',
@@ -380,17 +432,61 @@ const translations = {
 
         // Site
         'site.name': '한서우',
+        'meta.title': '한서우 (Seowoo Han) | Applied AI Engineer · AX 교육자 · Codex Ambassador',
+        'meta.description': 'Applied AI 엔지니어 한서우의 포트폴리오입니다. 컴퓨터 비전·OCR 제품, AX 교육, OpenAI Codex Ambassador 활동, 프로젝트·글·기사·발표 영상을 기록합니다.',
 
         // Hero
         'hero.name': '한서우입니다.',
         'hero.greeting': '안녕하세요, ',
-        'hero.title': 'AI Engineer & Developer Experience',
+        'hero.title': 'Applied AI Engineer · AX 교육자 · Developer Experience',
         'hero.education': '고려대학교 컴퓨터학과 박사 수료 · <a href="https://www.donga.com/news/Society/article/all/20190820/97026745/1" class="edu-link" target="_blank" rel="noopener">CMU AI 프로그램 (전액 장학, IITP 지원)</a>',
-        'hero.description': 'AI Engineer로서 드론, OCR, object detection 등 컴퓨터 비전 기반 실제 제품 5개 이상을 만들었습니다. OpenAI Codex Ambassador로서 Codex, LLM, 멀티모달 AI를 실전 개발자 워크플로우와 학습 자료로 연결합니다.',
+        'hero.description': 'Applied AI와 컴퓨터 비전을 실제 제품과 운영에 연결합니다. AX 교육과 OpenAI Codex Ambassador 활동을 통해 사람들이 AI를 자기 업무에서 검증하고 다시 사용할 수 있는 워크플로우를 만듭니다.',
         'hero.cta': '연락하기',
         'hero.projects': '프로젝트 보기',
         'hero.codexWork': 'Codex 작업 보기',
         'hero.codex101': 'Codex 101',
+        'hero.portfolio': '대표 작업 보기',
+
+        // Portfolio overview
+        'portfolio.kicker': 'Selected portfolio',
+        'portfolio.title': '기술을 실제 제품, 업무, 학습 경험으로 연결합니다',
+        'portfolio.intro': '엔지니어링, AX 교육, Codex 커뮤니티, 공개 콘텐츠를 따로 나열하지 않고 제가 맡은 역할과 확인 가능한 결과물로 연결했습니다.',
+        'portfolio.engineering.eyebrow': 'Engineering',
+        'portfolio.engineering.title': 'Applied AI를 제품과 운영에 붙이는 엔지니어링',
+        'portfolio.engineering.desc': '드론 영상, OCR, 객체 탐지, 멀티모달 데이터가 실제 사용자 흐름에서 작동하도록 입력·예외·검증 단계를 설계합니다.',
+        'portfolio.engineering.cta': '경력과 프로젝트 보기 →',
+        'portfolio.codex.eyebrow': 'Codex & DevX',
+        'portfolio.codex.title': 'Codex 101과 실전 개발자 워크플로우',
+        'portfolio.codex.desc': '한국어와 영어 가이드, 데모, 온보딩 자료를 만들어 새로운 기능을 실제 개발 흐름에 연결합니다.',
+        'portfolio.codex.cta': 'Codex 101 열기 ↗',
+        'portfolio.ax.eyebrow': 'AX & Education',
+        'portfolio.ax.title': '업무 하나를 직접 바꾸는 AX 교육',
+        'portfolio.ax.desc': '기능 소개보다 문제 정의, 실행, 사람의 검토와 재시도를 중심으로 실습형 강의와 워크숍을 설계합니다.',
+        'portfolio.ax.cta': 'AX Skillathon 기록 보기 ↗',
+        'portfolio.community.eyebrow': 'Community',
+        'portfolio.community.title': '다른 사람의 작업이 다음 실험이 되는 커뮤니티',
+        'portfolio.community.desc': 'Workflow Show & Tell과 Codex 워크숍에서 사례를 모으고, 사람과 프로그램을 연결하며 결과를 공개 기록으로 남깁니다.',
+        'portfolio.community.cta': '결과 페이지 보기 ↗',
+
+        // Public content hub
+        'content.kicker': 'Public work',
+        'content.title': '글, 기사, 영상으로 남긴 작업',
+        'content.intro': '프로젝트를 만든 과정, 현장에서 확인한 조건, 커뮤니티의 결과를 원문과 함께 공개합니다. 아래에는 최근 대표 콘텐츠를, 각 아카이브에는 전체 기록을 남겼습니다.',
+        'content.posts.title': '현장 포스팅',
+        'content.posts.skillathon': 'Day1 Company AX Skillathon 강의 기록',
+        'content.posts.workflow': 'Workflow Show & Tell Seoul 행사 후기',
+        'content.posts.impact': 'Codex Impact Workshop 결과 공유',
+        'content.posts.cta': 'LinkedIn 전체 아카이브 보기 →',
+        'content.articles.label': 'Articles',
+        'content.articles.title': '기술 아티클',
+        'content.articles.cta': '아티클 전체 아카이브 보기 →',
+        'content.video.title': '발표와 인터뷰 영상',
+        'content.video.codex': 'Codex Ambassador 활동 플레이리스트',
+        'content.video.interview': '원티드랩 인물도감 인터뷰',
+        'content.video.cta': '영상 아카이브 보기 →',
+        'content.press.label': 'Press',
+        'content.press.title': '기사와 외부 기록',
+        'content.press.cta': '기사와 미디어 전체 보기 →',
 
         // About
         'about.title': '소개',
@@ -419,6 +515,8 @@ const translations = {
         'exp.aihubDataset': 'AIHub 데이터셋',
 
         'projects.title': 'AI-native 프로젝트',
+        'projects.kicker': 'Project archive',
+        'projects.portfolioIntro': '제품, 클라이언트 작업, 임팩트 프로젝트와 초기 실험을 확인된 범위와 공개 링크로 구분해 기록합니다.',
         'projects.order.beatpaws': '01 · Codex 데모 / 교육 자산',
         'projects.order.kibbl': '02 · AI 제품 아키텍처',
         'projects.order.zet': '03 · Agent/client 워크플로우',
@@ -788,6 +886,16 @@ function applyTranslations(lang) {
 
     // Update HTML lang attribute
     document.documentElement.lang = lang;
+
+    // Keep the browser title and share metadata aligned with the selected language.
+    document.title = translations[lang]['meta.title'];
+    const description = translations[lang]['meta.description'];
+    document.querySelector('meta[name="title"]')?.setAttribute('content', document.title);
+    document.querySelector('meta[name="description"]')?.setAttribute('content', description);
+    document.querySelector('meta[property="og:title"]')?.setAttribute('content', document.title);
+    document.querySelector('meta[property="og:description"]')?.setAttribute('content', description);
+    document.querySelector('meta[property="twitter:title"]')?.setAttribute('content', document.title);
+    document.querySelector('meta[property="twitter:description"]')?.setAttribute('content', description);
 
     // Update language toggle button
     const langText = document.querySelector('.lang-text');
