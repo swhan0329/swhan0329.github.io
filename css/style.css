@@ -453,6 +453,12 @@ img {
     border-color: var(--text-primary);
 }
 
+.threads-mark {
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
 /* ===== Sections ===== */
 .section {
     padding: var(--section-padding) 0;
