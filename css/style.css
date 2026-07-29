@@ -1264,6 +1264,29 @@ img {
     margin: 1.4rem 0 1rem;
 }
 
+.ebook-detail-conversion {
+    display: grid;
+    grid-template-columns: minmax(220px, 1fr) minmax(170px, 0.42fr);
+    gap: 0.75rem;
+    align-items: stretch;
+    max-width: 520px;
+    margin: 1.4rem 0 0;
+}
+
+.ebook-detail-conversion .btn {
+    min-height: 56px;
+    padding: 0.9rem 1.4rem;
+    font-size: 1rem;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.ebook-detail-conversion .ebook-count {
+    min-height: 56px;
+    margin: 0;
+    padding: 0.8rem 1rem;
+}
+
 .ebook-detail-section h2 {
     margin-bottom: 1.5rem;
     color: var(--text-primary);
@@ -2818,6 +2841,11 @@ img {
     .ebook-detail-actions .btn {
         width: 100%;
         justify-content: center;
+    }
+
+    .ebook-detail-conversion {
+        grid-template-columns: 1fr;
+        max-width: none;
     }
 
     .ebook-home-card .ebook-actions {
