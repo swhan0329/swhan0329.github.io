@@ -230,6 +230,12 @@ const translations = {
         // Codex & Developer Experience
         'ecosystem.title': 'Codex & Developer Experience',
         'ecosystem.ambassador.desc': 'Helping Korean developers connect Codex to real product work through practical guides, demos, workshops, and feedback loops.',
+        'ecosystem.vlog.kicker': 'Field notes · Personal vlog',
+        'ecosystem.vlog.title': 'A day at OpenAI DevDay 2026',
+        'ecosystem.vlog.desc': 'From the ride to the venue to the talks and conversations along the way. A personal vlog of what I saw and experienced at DevDay.',
+        'ecosystem.vlog.cta': 'Watch the vlog',
+        'ecosystem.proof.codexPi.label': 'Physical Builds',
+        'ecosystem.proof.codexPi': 'Selected for the inaugural Codex × Pi (Physical Builds) cohort in September 2026. I am starting experiments that connect software and hardware with Codex and Raspberry Pi.',
         'ecosystem.proof.guide.label': 'Guide',
         'ecosystem.proof.guide': 'Created Codex 101, a bilingual Korean/English practical guide for OpenAI Codex workflows, featured in the OpenAI Developers Showcase.',
         'ecosystem.proof.community.label': 'Community',
@@ -405,6 +411,7 @@ const translations = {
 
         // Ambassador
         'ambassador.codex': 'Codex Ambassador',
+        'ambassador.codexPi': 'Codex × Pi · Inaugural Cohort',
 
         // Footer
         'footer.rights': 'All rights reserved.'
@@ -639,6 +646,12 @@ const translations = {
         // Codex & Developer Experience
         'ecosystem.title': 'Codex & 개발자 경험',
         'ecosystem.ambassador.desc': '실전 가이드, 데모, 워크숍, 피드백 루프를 통해 한국 개발자들이 Codex를 제품 개발에 연결하도록 돕습니다.',
+        'ecosystem.vlog.kicker': '현장 기록 · 개인 브이로그',
+        'ecosystem.vlog.title': 'OpenAI DevDay 2026에서 보낸 하루',
+        'ecosystem.vlog.desc': '행사장으로 향하는 길부터 발표, 사람들과 나눈 이야기까지. DevDay에서 직접 보고 느낀 하루를 브이로그로 담았습니다.',
+        'ecosystem.vlog.cta': '브이로그 보기',
+        'ecosystem.proof.codexPi.label': 'Physical Builds',
+        'ecosystem.proof.codexPi': '2026년 9월, Codex × Pi (Physical Builds) 1기에 선정되었습니다. Codex와 Raspberry Pi를 활용해 소프트웨어와 하드웨어를 연결하는 실험을 시작합니다.',
         'ecosystem.proof.guide.label': '가이드',
         'ecosystem.proof.guide': 'OpenAI Developers Showcase에 소개된 한/영 실전 가이드 Codex 101을 만들고 유지하고 있습니다.',
         'ecosystem.proof.community.label': '커뮤니티',
@@ -814,6 +827,7 @@ const translations = {
 
         // Ambassador
         'ambassador.codex': 'Codex Ambassador',
+        'ambassador.codexPi': 'Codex × Pi 1기 선정',
 
         // Footer
         'footer.rights': 'All rights reserved.'
