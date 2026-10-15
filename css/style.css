@@ -771,16 +771,15 @@ img {
 }
 
 .ebook-home-card.ebook-home-card-codex .ebook-actions {
-    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     align-items: stretch;
 }
 
-.ebook-home-card-codex .js-download-track {
+.ebook-home-card-codex .btn {
     min-height: 56px;
     padding-inline: 1.25rem;
     font-size: 0.95rem;
     font-weight: 700;
-    white-space: nowrap;
 }
 
 .ebook-home-card-codex .ebook-count {
@@ -1319,6 +1318,15 @@ img {
     min-height: 56px;
     margin: 0;
     padding: 0.8rem 1rem;
+}
+
+.ebook-detail-summary > .ebook-note {
+    margin: 1.25rem 0 0.75rem;
+    font-size: 0.9rem;
+}
+
+.ebook-cover-card.ebook-cover-card-square {
+    aspect-ratio: 1;
 }
 
 .ebook-detail-section h2 {
