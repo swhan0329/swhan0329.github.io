@@ -8,7 +8,7 @@ const translations = {
         'nav.projects': 'Projects',
         'nav.publications': 'Publications',
         'nav.teaching': 'Teaching',
-        'nav.ecosystem': 'Codex & DevX',
+        'nav.ecosystem': 'Ambassadors & DevX',
         'nav.ebook': 'E-book',
         'nav.media': 'Media',
         'nav.life': 'Life',
@@ -16,15 +16,15 @@ const translations = {
 
         // Site
         'site.name': 'Seowoo Han',
-        'meta.title': 'Seowoo Han | Applied AI Engineer · AX Educator · Codex Ambassador',
-        'meta.description': 'Portfolio of Seowoo Han: applied AI and computer-vision products, AX education, OpenAI Codex Ambassador work, projects, writing, press, and talks.',
+        'meta.title': 'Seowoo Han | Applied AI Engineer · AX Educator · Codex & Cerebras Ambassador',
+        'meta.description': 'Portfolio of Seowoo Han: applied AI and computer-vision products, AX education, OpenAI Codex and Cerebras Ambassador work, projects, writing, press, and talks.',
 
         // Hero
         'hero.name': 'Seowoo Han',
         'hero.greeting': "Hello, I'm",
         'hero.title': 'Applied AI Engineer · AX Educator · Developer Experience',
         'hero.education': 'Ph.D. Candidate, Korea University CS | CMU AI Program (Full Scholarship by IITP, Korea)',
-        'hero.description': 'I connect applied AI and computer vision to real products and operations. Through AX education and my work as an OpenAI Codex Ambassador, I design workflows people can test, review, and reuse in their own work.',
+        'hero.description': 'I connect applied AI and computer vision to real products and operations. I am an OpenAI Codex Ambassador and a Cerebras Ambassador. Through AX education, I design workflows people can test, review, and reuse in their own work.',
         'hero.cta': 'Get in Touch',
         'hero.projects': 'View Projects',
         'hero.codexWork': 'View Codex Work',
@@ -228,7 +228,8 @@ const translations = {
         'media.title': 'Media & Archive',
 
         // Codex & Developer Experience
-        'ecosystem.title': 'Codex & Developer Experience',
+        'ecosystem.title': 'Ambassadors & Developer Experience',
+        'ecosystem.cerebras.desc': 'Joined the Cerebras Ambassador program in October 2026.',
         'ecosystem.ambassador.desc': 'Helping Korean developers connect Codex to real product work through practical guides, demos, workshops, and feedback loops.',
         'ecosystem.vlog.kicker': 'Field notes · Personal vlog',
         'ecosystem.vlog.title': 'A day at OpenAI DevDay 2026',
@@ -414,6 +415,7 @@ const translations = {
 
         // Ambassador
         'ambassador.codex': 'Codex Ambassador',
+        'ambassador.cerebras': 'Cerebras Ambassador',
         'ambassador.codexPi': 'Codex × Pi · Inaugural Cohort',
 
         // Footer
@@ -428,7 +430,7 @@ const translations = {
         'nav.projects': '프로젝트',
         'nav.publications': '논문',
         'nav.teaching': '교육',
-        'nav.ecosystem': 'Codex & DevX',
+        'nav.ecosystem': 'Ambassadors & DevX',
         'nav.ebook': 'E-book',
         'nav.media': '미디어',
         'nav.life': '일상',
@@ -436,15 +438,15 @@ const translations = {
 
         // Site
         'site.name': '한서우',
-        'meta.title': '한서우 (Seowoo Han) | Applied AI Engineer · AX 교육자 · Codex Ambassador',
-        'meta.description': 'Applied AI 엔지니어 한서우의 포트폴리오입니다. 컴퓨터 비전·OCR 제품, AX 교육, OpenAI Codex Ambassador 활동, 프로젝트·글·기사·발표 영상을 기록합니다.',
+        'meta.title': '한서우 (Seowoo Han) | Applied AI Engineer · AX 교육자 · Codex & Cerebras Ambassador',
+        'meta.description': 'Applied AI 엔지니어 한서우의 포트폴리오입니다. 컴퓨터 비전·OCR 제품, AX 교육, OpenAI Codex·Cerebras Ambassador 활동, 프로젝트·글·기사·발표 영상을 기록합니다.',
 
         // Hero
         'hero.name': '한서우입니다.',
         'hero.greeting': '안녕하세요, ',
         'hero.title': 'Applied AI Engineer · AX 교육자 · Developer Experience',
         'hero.education': '고려대학교 컴퓨터학과 박사 수료 · <a href="https://www.donga.com/news/Society/article/all/20190820/97026745/1" class="edu-link" target="_blank" rel="noopener">CMU AI 프로그램 (전액 장학, IITP 지원)</a>',
-        'hero.description': 'Applied AI와 컴퓨터 비전을 실제 제품과 운영에 연결합니다. AX 교육과 OpenAI Codex Ambassador 활동을 통해 사람들이 AI를 자기 업무에서 검증하고 다시 사용할 수 있는 워크플로우를 만듭니다.',
+        'hero.description': 'Applied AI와 컴퓨터 비전을 실제 제품과 운영에 연결합니다. OpenAI Codex와 Cerebras 앰버서더로 활동하고 있습니다. AX 교육을 통해 사람들이 AI를 자기 업무에서 검증하고 다시 사용할 수 있는 워크플로우를 만듭니다.',
         'hero.cta': '연락하기',
         'hero.projects': '프로젝트 보기',
         'hero.codexWork': 'Codex 작업 보기',
@@ -647,7 +649,8 @@ const translations = {
         'media.title': '미디어 & 아카이브',
 
         // Codex & Developer Experience
-        'ecosystem.title': 'Codex & 개발자 경험',
+        'ecosystem.title': '앰버서더 & 개발자 경험',
+        'ecosystem.cerebras.desc': '2026년 10월, Cerebras 앰버서더로 합류했습니다.',
         'ecosystem.ambassador.desc': '실전 가이드, 데모, 워크숍, 피드백 루프를 통해 한국 개발자들이 Codex를 제품 개발에 연결하도록 돕습니다.',
         'ecosystem.vlog.kicker': '현장 기록 · 개인 브이로그',
         'ecosystem.vlog.title': 'OpenAI DevDay 2026에서 보낸 하루',
@@ -833,6 +836,7 @@ const translations = {
 
         // Ambassador
         'ambassador.codex': 'Codex Ambassador',
+        'ambassador.cerebras': 'Cerebras Ambassador',
         'ambassador.codexPi': 'Codex × Pi 1기 선정',
 
         // Footer
